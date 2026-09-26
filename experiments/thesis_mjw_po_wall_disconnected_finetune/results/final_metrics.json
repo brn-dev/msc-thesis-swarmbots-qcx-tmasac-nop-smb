@@ -1,0 +1,108 @@
+{
+  "tail_points_per_run": 10,
+  "success_rate_thresholds": [
+    25.0,
+    50.0,
+    75.0,
+    90.0,
+    95.0,
+    98.0
+  ],
+  "run_length_limit": 150000000,
+  "run_length_limit_overrides": {},
+  "standard_deviation": "population",
+  "variants": {
+    "tmasac_baseline": {
+      "display_name": "TMASAC",
+      "number_of_runs": 5,
+      "ep_rew_ema": {
+        "number_of_runs": 5,
+        "mean": 17.78323065938213,
+        "std": 0.1270856278138659
+      },
+      "ep_success_rate_ema": {
+        "number_of_runs": 5,
+        "mean": 98.36901813143422,
+        "std": 1.1751062095656286
+      },
+      "success_rate_threshold_timesteps": {
+        "25": {
+          "number_of_runs": 5,
+          "mean": 101360640.0,
+          "std": 777010.2283599618
+        },
+        "50": {
+          "number_of_runs": 5,
+          "mean": 104801280.0,
+          "std": 1310566.390998945
+        },
+        "75": {
+          "number_of_runs": 5,
+          "mean": 109327360.0,
+          "std": 2100317.6107855686
+        },
+        "90": {
+          "number_of_runs": 5,
+          "mean": 114816000.0,
+          "std": 2924687.4138505813
+        },
+        "95": {
+          "number_of_runs": 5,
+          "mean": 119153664.0,
+          "std": 3819471.1331994645
+        },
+        "98": {
+          "number_of_runs": 5,
+          "mean": 123139072.0,
+          "std": 6007540.518333938
+        }
+      }
+    },
+    "tmasac_no_connectors": {
+      "display_name": "TMASAC, no connectors",
+      "number_of_runs": 5,
+      "ep_rew_ema": {
+        "number_of_runs": 5,
+        "mean": 17.79150976750774,
+        "std": 0.027327736452908608
+      },
+      "ep_success_rate_ema": {
+        "number_of_runs": 5,
+        "mean": 99.99999999999946,
+        "std": 0.0
+      },
+      "success_rate_threshold_timesteps": {
+        "25": {
+          "number_of_runs": 5,
+          "mean": 129135616.0,
+          "std": 1615849.9364780134
+        },
+        "50": {
+          "number_of_runs": 5,
+          "mean": 129487872.0,
+          "std": 1552940.4807345322
+        },
+        "75": {
+          "number_of_runs": 5,
+          "mean": 129881088.0,
+          "std": 1539845.4264243538
+        },
+        "90": {
+          "number_of_runs": 5,
+          "mean": 130262016.0,
+          "std": 1625374.1399001032
+        },
+        "95": {
+          "number_of_runs": 5,
+          "mean": 130528256.0,
+          "std": 1656759.8500977745
+        },
+        "98": {
+          "number_of_runs": 5,
+          "mean": 130798592.0,
+          "std": 1701216.2910294505
+        }
+      }
+    }
+  }
+}

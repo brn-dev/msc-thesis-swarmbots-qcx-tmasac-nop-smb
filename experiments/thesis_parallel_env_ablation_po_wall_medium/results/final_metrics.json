@@ -1,0 +1,246 @@
+{
+  "tail_points_per_run": 10,
+  "success_rate_thresholds": [
+    25.0,
+    50.0,
+    75.0,
+    90.0,
+    95.0,
+    98.0
+  ],
+  "run_length_limit": 100000000,
+  "run_length_limit_overrides": {},
+  "standard_deviation": "population",
+  "variants": {
+    "mat_qcx_1024x4": {
+      "display_name": "MAT-QCX, 1024x4",
+      "number_of_runs": 5,
+      "ep_rew_ema": {
+        "number_of_runs": 5,
+        "mean": 13.546330538065742,
+        "std": 0.7572318216864008
+      },
+      "ep_success_rate_ema": {
+        "number_of_runs": 5,
+        "mean": 56.332509962572395,
+        "std": 6.972609010643839
+      },
+      "success_rate_threshold_timesteps": {
+        "25": {
+          "number_of_runs": 5,
+          "mean": 46448640.0,
+          "std": 7664800.486549614
+        },
+        "50": {
+          "number_of_runs": 5,
+          "mean": 73294643.2,
+          "std": 8321373.115432871
+        },
+        "75": {
+          "number_of_runs": 0,
+          "mean": null,
+          "std": null
+        },
+        "90": {
+          "number_of_runs": 0,
+          "mean": null,
+          "std": null
+        },
+        "95": {
+          "number_of_runs": 0,
+          "mean": null,
+          "std": null
+        },
+        "98": {
+          "number_of_runs": 0,
+          "mean": null,
+          "std": null
+        }
+      }
+    },
+    "mat_qcx_512x8": {
+      "display_name": "MAT-QCX, 512x8",
+      "number_of_runs": 5,
+      "ep_rew_ema": {
+        "number_of_runs": 5,
+        "mean": 9.948091192037198,
+        "std": 0.792701203786787
+      },
+      "ep_success_rate_ema": {
+        "number_of_runs": 5,
+        "mean": 26.651708732553566,
+        "std": 5.953362767630083
+      },
+      "success_rate_threshold_timesteps": {
+        "25": {
+          "number_of_runs": 4,
+          "mean": 85626880.0,
+          "std": 6382173.958393801
+        },
+        "50": {
+          "number_of_runs": 0,
+          "mean": null,
+          "std": null
+        },
+        "75": {
+          "number_of_runs": 0,
+          "mean": null,
+          "std": null
+        },
+        "90": {
+          "number_of_runs": 0,
+          "mean": null,
+          "std": null
+        },
+        "95": {
+          "number_of_runs": 0,
+          "mean": null,
+          "std": null
+        },
+        "98": {
+          "number_of_runs": 0,
+          "mean": null,
+          "std": null
+        }
+      }
+    },
+    "mat_qcx_256x16": {
+      "display_name": "MAT-QCX, 256x16",
+      "number_of_runs": 5,
+      "ep_rew_ema": {
+        "number_of_runs": 5,
+        "mean": 5.907362018985318,
+        "std": 0.8539749333715968
+      },
+      "ep_success_rate_ema": {
+        "number_of_runs": 5,
+        "mean": 4.89103226800448,
+        "std": 3.3210871923116194
+      },
+      "success_rate_threshold_timesteps": {
+        "25": {
+          "number_of_runs": 0,
+          "mean": null,
+          "std": null
+        },
+        "50": {
+          "number_of_runs": 0,
+          "mean": null,
+          "std": null
+        },
+        "75": {
+          "number_of_runs": 0,
+          "mean": null,
+          "std": null
+        },
+        "90": {
+          "number_of_runs": 0,
+          "mean": null,
+          "std": null
+        },
+        "95": {
+          "number_of_runs": 0,
+          "mean": null,
+          "std": null
+        },
+        "98": {
+          "number_of_runs": 0,
+          "mean": null,
+          "std": null
+        }
+      }
+    },
+    "mat_qcx_128x32": {
+      "display_name": "MAT-QCX, 128x32",
+      "number_of_runs": 6,
+      "ep_rew_ema": {
+        "number_of_runs": 6,
+        "mean": 2.660548952897646,
+        "std": 0.5344122678921233
+      },
+      "ep_success_rate_ema": {
+        "number_of_runs": 6,
+        "mean": 0.03491363190223176,
+        "std": 0.06946447146536816
+      },
+      "success_rate_threshold_timesteps": {
+        "25": {
+          "number_of_runs": 0,
+          "mean": null,
+          "std": null
+        },
+        "50": {
+          "number_of_runs": 0,
+          "mean": null,
+          "std": null
+        },
+        "75": {
+          "number_of_runs": 0,
+          "mean": null,
+          "std": null
+        },
+        "90": {
+          "number_of_runs": 0,
+          "mean": null,
+          "std": null
+        },
+        "95": {
+          "number_of_runs": 0,
+          "mean": null,
+          "std": null
+        },
+        "98": {
+          "number_of_runs": 0,
+          "mean": null,
+          "std": null
+        }
+      }
+    },
+    "mat_qcx_64x64": {
+      "display_name": "MAT-QCX, 64x64",
+      "number_of_runs": 4,
+      "ep_rew_ema": {
+        "number_of_runs": 4,
+        "mean": 1.1102887170118492,
+        "std": 0.14420014624680214
+      },
+      "ep_success_rate_ema": {
+        "number_of_runs": 4,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "success_rate_threshold_timesteps": {
+        "25": {
+          "number_of_runs": 0,
+          "mean": null,
+          "std": null
+        },
+        "50": {
+          "number_of_runs": 0,
+          "mean": null,
+          "std": null
+        },
+        "75": {
+          "number_of_runs": 0,
+          "mean": null,
+          "std": null
+        },
+        "90": {
+          "number_of_runs": 0,
+          "mean": null,
+          "std": null
+        },
+        "95": {
+          "number_of_runs": 0,
+          "mean": null,
+          "std": null
+        },
+        "98": {
+          "number_of_runs": 0,
+          "mean": null,
+          "std": null
+        }
+      }
+    }
+  }
+}

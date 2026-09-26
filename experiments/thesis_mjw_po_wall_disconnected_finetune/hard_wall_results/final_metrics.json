@@ -1,0 +1,108 @@
+{
+  "tail_points_per_run": 10,
+  "success_rate_thresholds": [
+    25.0,
+    50.0,
+    75.0,
+    90.0,
+    95.0,
+    98.0
+  ],
+  "run_length_limit": 150000000,
+  "run_length_limit_overrides": {},
+  "standard_deviation": "population",
+  "variants": {
+    "tmasac_baseline": {
+      "display_name": "TMASAC",
+      "number_of_runs": 5,
+      "ep_rew_ema": {
+        "number_of_runs": 5,
+        "mean": 16.818402703128847,
+        "std": 0.9658964511688891
+      },
+      "ep_success_rate_ema": {
+        "number_of_runs": 5,
+        "mean": 91.30160759950654,
+        "std": 7.333702943610075
+      },
+      "success_rate_threshold_timesteps": {
+        "25": {
+          "number_of_runs": 5,
+          "mean": 102790144.0,
+          "std": 1544707.9880624688
+        },
+        "50": {
+          "number_of_runs": 5,
+          "mean": 108917760.0,
+          "std": 3011677.1369481157
+        },
+        "75": {
+          "number_of_runs": 5,
+          "mean": 119038976.0,
+          "std": 7234753.564572604
+        },
+        "90": {
+          "number_of_runs": 5,
+          "mean": 129774592.0,
+          "std": 11418237.525519602
+        },
+        "95": {
+          "number_of_runs": 3,
+          "mean": 125826048.0,
+          "std": 1824674.9067162622
+        },
+        "98": {
+          "number_of_runs": 3,
+          "mean": 137963861.33333334,
+          "std": 5461222.398873311
+        }
+      }
+    },
+    "tmasac_no_connectors": {
+      "display_name": "TMASAC, no connectors",
+      "number_of_runs": 5,
+      "ep_rew_ema": {
+        "number_of_runs": 5,
+        "mean": 3.3193769399003643,
+        "std": 1.302718216642854
+      },
+      "ep_success_rate_ema": {
+        "number_of_runs": 5,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "success_rate_threshold_timesteps": {
+        "25": {
+          "number_of_runs": 0,
+          "mean": null,
+          "std": null
+        },
+        "50": {
+          "number_of_runs": 0,
+          "mean": null,
+          "std": null
+        },
+        "75": {
+          "number_of_runs": 0,
+          "mean": null,
+          "std": null
+        },
+        "90": {
+          "number_of_runs": 0,
+          "mean": null,
+          "std": null
+        },
+        "95": {
+          "number_of_runs": 0,
+          "mean": null,
+          "std": null
+        },
+        "98": {
+          "number_of_runs": 0,
+          "mean": null,
+          "std": null
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,5428 @@
+{
+  "completed_at": "2026-08-22T15:20:52.813007+00:00",
+  "config": {
+    "deterministic": true,
+    "episode_length": 512,
+    "episodes": 512,
+    "max_parallel_envs": 512,
+    "pool_seed_base": 1000000,
+    "pool_size": 50,
+    "rollout_seed": 2000000,
+    "unit_counts": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "created_at": "2026-08-22T12:42:43.431622+00:00",
+  "resolved_num_envs": 512,
+  "results": [
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_po_wall_medium_1024x1_tmasac/tmasac_lr=5e-5_bigger_mlps/2026-07-17_12-49-19/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1000000,
+        1000049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_12-49-19",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 154.923828125,
+          "min": 46.0,
+          "std": 56.54212390749448
+        },
+        "episode_return": {
+          "max": 20.115422036498785,
+          "mean": 18.071403008338848,
+          "min": 0.6885757653508335,
+          "std": 1.228591677604422
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": -0.0029296875254658516,
+          "min": -1.2930000112392008,
+          "std": 0.057796509587299386
+        },
+        "progress_reward": {
+          "max": 20.115422036498785,
+          "mean": 18.074332695939802,
+          "min": 1.9815759968478233,
+          "std": 1.1939314407933208
+        },
+        "success_count": 511,
+        "success_rate_percent": 99.8046875
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 2
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_po_wall_medium_1024x1_tmasac/tmasac_lr=5e-5_bigger_mlps/2026-07-17_12-49-20/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1000000,
+        1000049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_12-49-20",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 338.0,
+          "mean": 132.0390625,
+          "min": 59.0,
+          "std": 42.73924432381899
+        },
+        "episode_return": {
+          "max": 20.074422173202038,
+          "mean": 18.101024331948793,
+          "min": 14.42381277680397,
+          "std": 0.9628807151935466
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0,
+          "std": 0.0
+        },
+        "progress_reward": {
+          "max": 20.074422173202038,
+          "mean": 18.101024331948793,
+          "min": 14.42381277680397,
+          "std": 0.9628807151935466
+        },
+        "success_count": 512,
+        "success_rate_percent": 100.0
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 2
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_po_wall_medium_1024x1_tmasac/tmasac_lr=5e-5_bigger_mlps/2026-07-17_23-52-11/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1000000,
+        1000049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_23-52-11",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 175.853515625,
+          "min": 58.0,
+          "std": 64.95241668292937
+        },
+        "episode_return": {
+          "max": 20.103890858590603,
+          "mean": 18.031033839041584,
+          "min": 0.0932579463114962,
+          "std": 1.3699651365115884
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0,
+          "std": 0.0
+        },
+        "progress_reward": {
+          "max": 20.103890858590603,
+          "mean": 18.031033839041584,
+          "min": 0.0932579463114962,
+          "std": 1.3699651365115884
+        },
+        "success_count": 509,
+        "success_rate_percent": 99.4140625
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 2
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_po_wall_medium_1024x1_tmasac/tmasac_lr=5e-5_bigger_mlps/2026-07-17_23-52-34/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1000000,
+        1000049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_23-52-34",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 466.0,
+          "mean": 174.76171875,
+          "min": 60.0,
+          "std": 62.716109649322945
+        },
+        "episode_return": {
+          "max": 20.081352155655622,
+          "mean": 18.109624162536193,
+          "min": 14.42454994469881,
+          "std": 0.9596838138512074
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0,
+          "std": 0.0
+        },
+        "progress_reward": {
+          "max": 20.081352155655622,
+          "mean": 18.109624162536193,
+          "min": 14.42454994469881,
+          "std": 0.9596838138512074
+        },
+        "success_count": 512,
+        "success_rate_percent": 100.0
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 2
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/thesis_mjw_po_wall_medium/tmasac_baseline/2026-08-15_11-45-06/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1000000,
+        1000049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-08-15_11-45-06",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 288.0,
+          "mean": 132.708984375,
+          "min": 45.0,
+          "std": 39.83073656776894
+        },
+        "episode_return": {
+          "max": 20.108706656843424,
+          "mean": 18.099919543614078,
+          "min": 14.45035856589675,
+          "std": 0.9585640155373045
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0,
+          "std": 0.0
+        },
+        "progress_reward": {
+          "max": 20.108706656843424,
+          "mean": 18.099919543614078,
+          "min": 14.45035856589675,
+          "std": 0.9585640155373045
+        },
+        "success_count": 512,
+        "success_rate_percent": 100.0
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 2
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_po_wall_medium_1024x1_tmasac/tmasac_lr=5e-5_bigger_mlps/2026-07-17_12-49-19/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1100000,
+        1100049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_12-49-19",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 207.69140625,
+          "min": 47.0,
+          "std": 124.48990642275967
+        },
+        "episode_return": {
+          "max": 20.25209006271325,
+          "mean": 16.81412087403554,
+          "min": 0.4967681983252987,
+          "std": 3.834147867659147
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": -0.06394336237895004,
+          "min": -0.7440000184578821,
+          "std": 0.14525975091480206
+        },
+        "progress_reward": {
+          "max": 20.25209006271325,
+          "mean": 16.878064192701423,
+          "min": 1.002768266494968,
+          "std": 3.700031014489912
+        },
+        "success_count": 455,
+        "success_rate_percent": 88.8671875
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 3
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_po_wall_medium_1024x1_tmasac/tmasac_lr=5e-5_bigger_mlps/2026-07-17_12-49-20/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1100000,
+        1100049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_12-49-20",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 170.775390625,
+          "min": 52.0,
+          "std": 87.21759303605931
+        },
+        "episode_return": {
+          "max": 20.194764396350365,
+          "mean": 17.700230348182124,
+          "min": 5.467766480229329,
+          "std": 2.3060993354614827
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": -0.022201172901304744,
+          "min": -0.5980000211857259,
+          "std": 0.08718136888789395
+        },
+        "progress_reward": {
+          "max": 20.194764396350365,
+          "mean": 17.722431500094828,
+          "min": 5.900766473350814,
+          "std": 2.2293733566548197
+        },
+        "success_count": 492,
+        "success_rate_percent": 96.09375
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 3
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_po_wall_medium_1024x1_tmasac/tmasac_lr=5e-5_bigger_mlps/2026-07-17_23-52-11/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1100000,
+        1100049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_23-52-11",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 211.96484375,
+          "min": 65.0,
+          "std": 94.26940871930876
+        },
+        "episode_return": {
+          "max": 20.163228692661505,
+          "mean": 17.744099952391036,
+          "min": 1.1623570680385455,
+          "std": 2.4261577004937256
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": -0.019355469669335434,
+          "min": -0.503000023891218,
+          "std": 0.07441400728691296
+        },
+        "progress_reward": {
+          "max": 20.231228481206927,
+          "mean": 17.76345538868856,
+          "min": 1.5123571138828993,
+          "std": 2.368014393973913
+        },
+        "success_count": 495,
+        "success_rate_percent": 96.6796875
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 3
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_po_wall_medium_1024x1_tmasac/tmasac_lr=5e-5_bigger_mlps/2026-07-17_23-52-34/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1100000,
+        1100049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_23-52-34",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 191.419921875,
+          "min": 55.0,
+          "std": 81.26680976108203
+        },
+        "episode_return": {
+          "max": 20.190955589991063,
+          "mean": 18.01045918166277,
+          "min": 5.693300585786346,
+          "std": 1.6046438555309854
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": -0.010861328640885404,
+          "min": -0.5070000240812078,
+          "std": 0.04486196825455221
+        },
+        "progress_reward": {
+          "max": 20.223955364432186,
+          "mean": 18.021320475723467,
+          "min": 5.693300585786346,
+          "std": 1.5762247445942104
+        },
+        "success_count": 506,
+        "success_rate_percent": 98.828125
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 3
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/thesis_mjw_po_wall_medium/tmasac_baseline/2026-08-15_11-45-06/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1100000,
+        1100049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-08-15_11-45-06",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 181.212890625,
+          "min": 53.0,
+          "std": 81.03256717645559
+        },
+        "episode_return": {
+          "max": 20.20153272333846,
+          "mean": 17.87600314617204,
+          "min": 5.066964873112738,
+          "std": 2.09221867996784
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": -0.013683594399935828,
+          "min": -0.5040000239387155,
+          "std": 0.0689551905770583
+        },
+        "progress_reward": {
+          "max": 20.20153272333846,
+          "mean": 17.889686723197023,
+          "min": 5.568964921971201,
+          "std": 2.035281880154866
+        },
+        "success_count": 500,
+        "success_rate_percent": 97.65625
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 3
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_po_wall_medium_1024x1_tmasac/tmasac_lr=5e-5_bigger_mlps/2026-07-17_12-49-19/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1200000,
+        1200049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_12-49-19",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 197.73828125,
+          "min": 65.0,
+          "std": 85.84582530353994
+        },
+        "episode_return": {
+          "max": 20.091439183801413,
+          "mean": 17.714527779661694,
+          "min": 5.925171367882285,
+          "std": 2.0742970147218838
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": -0.021030761901556616,
+          "min": -0.4755000041332096,
+          "std": 0.05890966268119047
+        },
+        "progress_reward": {
+          "max": 20.091439183801413,
+          "mean": 17.73555855108748,
+          "min": 6.295671553525608,
+          "std": 2.0319154424001518
+        },
+        "success_count": 495,
+        "success_rate_percent": 96.6796875
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 4
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_po_wall_medium_1024x1_tmasac/tmasac_lr=5e-5_bigger_mlps/2026-07-17_12-49-20/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1200000,
+        1200049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_12-49-20",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 182.24609375,
+          "min": 71.0,
+          "std": 81.08525355523167
+        },
+        "episode_return": {
+          "max": 20.0959675591439,
+          "mean": 17.74208913215878,
+          "min": 1.5096210682531819,
+          "std": 2.0740844648906305
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": -0.017504882964658464,
+          "min": -0.3697500032139942,
+          "std": 0.05296508814338735
+        },
+        "progress_reward": {
+          "max": 20.0959675591439,
+          "mean": 17.759594022610173,
+          "min": 1.8508712705224752,
+          "std": 2.03750158634353
+        },
+        "success_count": 498,
+        "success_rate_percent": 97.265625
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 4
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_po_wall_medium_1024x1_tmasac/tmasac_lr=5e-5_bigger_mlps/2026-07-17_23-52-11/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1200000,
+        1200049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_23-52-11",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 226.197265625,
+          "min": 71.0,
+          "std": 90.98485747308831
+        },
+        "episode_return": {
+          "max": 20.121339498087764,
+          "mean": 17.66387935434051,
+          "min": 1.567696536425501,
+          "std": 2.2861182402832925
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": -0.020654297054534254,
+          "min": -0.3787500032922253,
+          "std": 0.05517935444997488
+        },
+        "progress_reward": {
+          "max": 20.121339498087764,
+          "mean": 17.68453366076139,
+          "min": 1.567696536425501,
+          "std": 2.2513724271512205
+        },
+        "success_count": 494,
+        "success_rate_percent": 96.484375
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 4
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_po_wall_medium_1024x1_tmasac/tmasac_lr=5e-5_bigger_mlps/2026-07-17_23-52-34/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1200000,
+        1200049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_23-52-34",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 217.775390625,
+          "min": 69.0,
+          "std": 89.1553810630837
+        },
+        "episode_return": {
+          "max": 20.0314303728519,
+          "mean": 17.74681762699481,
+          "min": 2.7662126552313566,
+          "std": 2.0411498894789997
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": -0.024353027555434892,
+          "min": -0.6750000058673322,
+          "std": 0.06221170480983176
+        },
+        "progress_reward": {
+          "max": 20.078680327162147,
+          "mean": 17.771170675522967,
+          "min": 2.7662126552313566,
+          "std": 2.0096109451955195
+        },
+        "success_count": 499,
+        "success_rate_percent": 97.4609375
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 4
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/thesis_mjw_po_wall_medium/tmasac_baseline/2026-08-15_11-45-06/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1200000,
+        1200049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-08-15_11-45-06",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 189.2578125,
+          "min": 74.0,
+          "std": 75.82682223471352
+        },
+        "episode_return": {
+          "max": 20.114843489602208,
+          "mean": 17.882953509491358,
+          "min": 2.9566308006178588,
+          "std": 1.704527337569835
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": -0.01363769543104354,
+          "min": -0.38175000331830233,
+          "std": 0.039032646243078534
+        },
+        "progress_reward": {
+          "max": 20.114843489602208,
+          "mean": 17.896591211974624,
+          "min": 2.9566308006178588,
+          "std": 1.6924841140574365
+        },
+        "success_count": 505,
+        "success_rate_percent": 98.6328125
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 4
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_po_wall_medium_1024x1_tmasac/tmasac_lr=5e-5_bigger_mlps/2026-07-17_12-49-19/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1300000,
+        1300049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_12-49-19",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 223.291015625,
+          "min": 74.0,
+          "std": 105.86058821880316
+        },
+        "episode_return": {
+          "max": 19.952251581358723,
+          "mean": 17.293999355914202,
+          "min": 5.243842312251218,
+          "std": 2.7358219343927
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": -0.034614845394116855,
+          "min": -0.5598000265890732,
+          "std": 0.08098254207794396
+        },
+        "progress_reward": {
+          "max": 19.9684514462715,
+          "mean": 17.32861417201512,
+          "min": 5.243842312251218,
+          "std": 2.671882971559688
+        },
+        "success_count": 473,
+        "success_rate_percent": 92.3828125
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 5
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_po_wall_medium_1024x1_tmasac/tmasac_lr=5e-5_bigger_mlps/2026-07-17_12-49-20/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1300000,
+        1300049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_12-49-20",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 198.248046875,
+          "min": 76.0,
+          "std": 91.20638403298753
+        },
+        "episode_return": {
+          "max": 19.94393519966252,
+          "mean": 17.523197887727154,
+          "min": -0.14081957924645394,
+          "std": 2.4687978765519185
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": -0.021714844781399734,
+          "min": -0.5166000245371833,
+          "std": 0.06670821994806263
+        },
+        "progress_reward": {
+          "max": 19.94393519966252,
+          "mean": 17.544912706600154,
+          "min": 0.14898057316895574,
+          "std": 2.420307102621925
+        },
+        "success_count": 486,
+        "success_rate_percent": 94.921875
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 5
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_po_wall_medium_1024x1_tmasac/tmasac_lr=5e-5_bigger_mlps/2026-07-17_23-52-11/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1300000,
+        1300049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_23-52-11",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 254.458984375,
+          "min": 69.0,
+          "std": 102.18152829141138
+        },
+        "episode_return": {
+          "max": 19.960661772158346,
+          "mean": 17.479406969469036,
+          "min": 2.5092871711822227,
+          "std": 2.545156593941604
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": -0.026332032500704372,
+          "min": -0.4212000200059265,
+          "std": 0.05954538262592594
+        },
+        "progress_reward": {
+          "max": 19.960661772158346,
+          "mean": 17.50573896105538,
+          "min": 2.7996872107760282,
+          "std": 2.5042197378067157
+        },
+        "success_count": 484,
+        "success_rate_percent": 94.53125
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 5
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_po_wall_medium_1024x1_tmasac/tmasac_lr=5e-5_bigger_mlps/2026-07-17_23-52-34/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1300000,
+        1300049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_23-52-34",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 239.505859375,
+          "min": 70.0,
+          "std": 104.99306136320497
+        },
+        "episode_return": {
+          "max": 19.929056800319813,
+          "mean": 17.36944359513528,
+          "min": 1.573319074290339,
+          "std": 2.6727532730126957
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": -0.03312773594848295,
+          "min": -0.5778000274440274,
+          "std": 0.07486892868229583
+        },
+        "progress_reward": {
+          "max": 19.929056800319813,
+          "mean": 17.40257127911037,
+          "min": 1.573319074290339,
+          "std": 2.622974797344127
+        },
+        "success_count": 479,
+        "success_rate_percent": 93.5546875
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 5
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/thesis_mjw_po_wall_medium/tmasac_baseline/2026-08-15_11-45-06/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1300000,
+        1300049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-08-15_11-45-06",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 215.978515625,
+          "min": 68.0,
+          "std": 96.31597539633096
+        },
+        "episode_return": {
+          "max": 19.955952300602803,
+          "mean": 17.558435372957675,
+          "min": 5.090673623257317,
+          "std": 2.3357021636304416
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": -0.021018750998337055,
+          "min": -0.3558000168995932,
+          "std": 0.06084838098839213
+        },
+        "progress_reward": {
+          "max": 19.955952300602803,
+          "mean": 17.57945409481063,
+          "min": 5.090673623257317,
+          "std": 2.293208931484839
+        },
+        "success_count": 486,
+        "success_rate_percent": 94.921875
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 5
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_po_wall_medium_1024x1_tmasac/tmasac_lr=5e-5_bigger_mlps/2026-07-17_12-49-19/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1400000,
+        1400049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_12-49-19",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 241.169921875,
+          "min": 82.0,
+          "std": 106.91041278066135
+        },
+        "episode_return": {
+          "max": 20.271524635885726,
+          "mean": 17.168222452561167,
+          "min": 3.150634798250394,
+          "std": 3.019161269968154
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": -0.029150392001383807,
+          "min": -0.4405000209226273,
+          "std": 0.06610105059966126
+        },
+        "progress_reward": {
+          "max": 20.271524635885726,
+          "mean": 17.197372873104854,
+          "min": 3.387134745658841,
+          "std": 2.974432935613073
+        },
+        "success_count": 467,
+        "success_rate_percent": 91.2109375
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 6
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_po_wall_medium_1024x1_tmasac/tmasac_lr=5e-5_bigger_mlps/2026-07-17_12-49-20/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1400000,
+        1400049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_12-49-20",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 221.96484375,
+          "min": 82.0,
+          "std": 107.67537808286575
+        },
+        "episode_return": {
+          "max": 20.24730287177954,
+          "mean": 17.19193248248635,
+          "min": 2.003696823201608,
+          "std": 3.023008160165063
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": -0.026241212164563876,
+          "min": -0.4015000190702267,
+          "std": 0.06775942881183085
+        },
+        "progress_reward": {
+          "max": 20.24730287177954,
+          "mean": 17.218173722595754,
+          "min": 2.253696735962876,
+          "std": 2.975558162130409
+        },
+        "success_count": 469,
+        "success_rate_percent": 91.6015625
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 6
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_po_wall_medium_1024x1_tmasac/tmasac_lr=5e-5_bigger_mlps/2026-07-17_23-52-11/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1400000,
+        1400049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_23-52-11",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 266.330078125,
+          "min": 91.0,
+          "std": 105.54872631423079
+        },
+        "episode_return": {
+          "max": 20.296432072209427,
+          "mean": 17.2645670799753,
+          "min": 2.577473669545725,
+          "std": 3.1088440580914045
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": -0.018803711825853497,
+          "min": -0.4175000198301859,
+          "std": 0.04574865786350386
+        },
+        "progress_reward": {
+          "max": 20.296432072209427,
+          "mean": 17.283370825387877,
+          "min": 2.577473669545725,
+          "std": 3.090812656122174
+        },
+        "success_count": 477,
+        "success_rate_percent": 93.1640625
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 6
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_po_wall_medium_1024x1_tmasac/tmasac_lr=5e-5_bigger_mlps/2026-07-17_23-52-34/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1400000,
+        1400049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_23-52-34",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 257.134765625,
+          "min": 82.0,
+          "std": 103.06600302161387
+        },
+        "episode_return": {
+          "max": 20.252845656563295,
+          "mean": 17.30246723824295,
+          "min": 2.7053378095297376,
+          "std": 2.8922002109751737
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": -0.029855470166239684,
+          "min": -0.4760000226087868,
+          "std": 0.06758801447661789
+        },
+        "progress_reward": {
+          "max": 20.26834585600227,
+          "mean": 17.33232274685576,
+          "min": 2.7053378095297376,
+          "std": 2.8537452071520377
+        },
+        "success_count": 475,
+        "success_rate_percent": 92.7734375
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 6
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/thesis_mjw_po_wall_medium/tmasac_baseline/2026-08-15_11-45-06/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1400000,
+        1400049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-08-15_11-45-06",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 232.236328125,
+          "min": 90.0,
+          "std": 98.16794844623338
+        },
+        "episode_return": {
+          "max": 20.23436914384365,
+          "mean": 17.39424576425482,
+          "min": 1.9673399273306131,
+          "std": 2.862285864094236
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": -0.022916016710723852,
+          "min": -0.5010000237962231,
+          "std": 0.05873887953846496
+        },
+        "progress_reward": {
+          "max": 20.23436914384365,
+          "mean": 17.41716181042085,
+          "min": 1.9673399273306131,
+          "std": 2.829307321821778
+        },
+        "success_count": 482,
+        "success_rate_percent": 94.140625
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 6
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_po_wall_medium_1024x1_tmasac/tmasac_lr=5e-5_bigger_mlps/2026-07-17_12-49-19/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1500000,
+        1500049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_12-49-19",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 250.4296875,
+          "min": 85.0,
+          "std": 100.83417184864635
+        },
+        "episode_return": {
+          "max": 19.882516391618992,
+          "mean": 17.302265979362822,
+          "min": 3.083251321746502,
+          "std": 2.6517207119537107
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": -0.0279190864357588,
+          "min": -0.3822857361519709,
+          "std": 0.05793357545658876
+        },
+        "progress_reward": {
+          "max": 19.882516391618992,
+          "mean": 17.330185079792507,
+          "min": 3.083251321746502,
+          "std": 2.6114283938806344
+        },
+        "success_count": 473,
+        "success_rate_percent": 92.3828125
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 7
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_po_wall_medium_1024x1_tmasac/tmasac_lr=5e-5_bigger_mlps/2026-07-17_12-49-20/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1500000,
+        1500049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_12-49-20",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 232.529296875,
+          "min": 93.0,
+          "std": 98.41394123391825
+        },
+        "episode_return": {
+          "max": 19.90189804090187,
+          "mean": 17.279446090281233,
+          "min": 0.12900213061948307,
+          "std": 2.702369804406087
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": -0.027225168993879834,
+          "min": -0.34971430571749806,
+          "std": 0.057578018268939886
+        },
+        "progress_reward": {
+          "max": 19.90189804090187,
+          "mean": 17.306671271028243,
+          "min": 0.3407165668613743,
+          "std": 2.6618148256966707
+        },
+        "success_count": 474,
+        "success_rate_percent": 92.578125
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 7
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_po_wall_medium_1024x1_tmasac/tmasac_lr=5e-5_bigger_mlps/2026-07-17_23-52-11/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1500000,
+        1500049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_23-52-11",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 284.708984375,
+          "min": 88.0,
+          "std": 103.84545344179016
+        },
+        "episode_return": {
+          "max": 19.91716334251396,
+          "mean": 17.23597831013422,
+          "min": 2.944434371398529,
+          "std": 2.935694298557973
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": -0.019476563675766556,
+          "min": -0.5211429185583256,
+          "std": 0.043595834987518955
+        },
+        "progress_reward": {
+          "max": 19.917591913879733,
+          "mean": 17.25545488893114,
+          "min": 3.110291641089134,
+          "std": 2.9175342351976083
+        },
+        "success_count": 472,
+        "success_rate_percent": 92.1875
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 7
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_po_wall_medium_1024x1_tmasac/tmasac_lr=5e-5_bigger_mlps/2026-07-17_23-52-34/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1500000,
+        1500049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_23-52-34",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 288.279296875,
+          "min": 95.0,
+          "std": 112.60593155505005
+        },
+        "episode_return": {
+          "max": 19.913068123714766,
+          "mean": 16.875734859231653,
+          "min": 3.7128979748813435,
+          "std": 3.1667693207233176
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": -0.04719726850555617,
+          "min": -0.5494286353350617,
+          "std": 0.08051931219308066
+        },
+        "progress_reward": {
+          "max": 19.917782514210558,
+          "mean": 16.922932147866486,
+          "min": 3.7128979748813435,
+          "std": 3.1097869059844325
+        },
+        "success_count": 449,
+        "success_rate_percent": 87.6953125
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 7
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/thesis_mjw_po_wall_medium/tmasac_baseline/2026-08-15_11-45-06/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1500000,
+        1500049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-08-15_11-45-06",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 258.240234375,
+          "min": 93.0,
+          "std": 100.86415147647884
+        },
+        "episode_return": {
+          "max": 19.8855010006273,
+          "mean": 17.325842535560344,
+          "min": 2.551259105501231,
+          "std": 2.7025877320452016
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": -0.023576452257771052,
+          "min": -0.3072857318620663,
+          "std": 0.051159279511240136
+        },
+        "progress_reward": {
+          "max": 19.8855010006273,
+          "mean": 17.349418990676316,
+          "min": 2.6819735727622174,
+          "std": 2.6684148213525756
+        },
+        "success_count": 475,
+        "success_rate_percent": 92.7734375
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 7
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_po_wall_medium_1024x1_tmasac/tmasac_lr=5e-5_bigger_mlps/2026-07-17_12-49-19/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1600000,
+        1600049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_12-49-19",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 259.0625,
+          "min": 95.0,
+          "std": 97.75957034352187
+        },
+        "episode_return": {
+          "max": 19.984277283772826,
+          "mean": 17.351601429294846,
+          "min": 5.224923357833177,
+          "std": 2.4469493989912543
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": -0.025071533377399646,
+          "min": -0.34087499300949275,
+          "std": 0.04850347636576622
+        },
+        "progress_reward": {
+          "max": 19.984277283772826,
+          "mean": 17.37667294089198,
+          "min": 5.3149233751464635,
+          "std": 2.4174529381927012
+        },
+        "success_count": 477,
+        "success_rate_percent": 93.1640625
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 8
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_po_wall_medium_1024x1_tmasac/tmasac_lr=5e-5_bigger_mlps/2026-07-17_12-49-20/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1600000,
+        1600049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_12-49-20",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 245.68359375,
+          "min": 104.0,
+          "std": 101.09937428508131
+        },
+        "episode_return": {
+          "max": 19.994351324159652,
+          "mean": 17.231938056204314,
+          "min": 5.9082817931775935,
+          "std": 2.5937930029438028
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": -0.03166113300676443,
+          "min": -0.4796250041690655,
+          "std": 0.06487067646789128
+        },
+        "progress_reward": {
+          "max": 19.994351324159652,
+          "mean": 17.26359916746449,
+          "min": 6.092031934764236,
+          "std": 2.544257902114473
+        },
+        "success_count": 470,
+        "success_rate_percent": 91.796875
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 8
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_po_wall_medium_1024x1_tmasac/tmasac_lr=5e-5_bigger_mlps/2026-07-17_23-52-11/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1600000,
+        1600049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_23-52-11",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 306.392578125,
+          "min": 113.0,
+          "std": 103.39583839807466
+        },
+        "episode_return": {
+          "max": 19.990921617951244,
+          "mean": 17.094628054469894,
+          "min": 2.8709260398172773,
+          "std": 2.8281560114469095
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": -0.02413110371071525,
+          "min": -0.30412500264355913,
+          "std": 0.04258428165406728
+        },
+        "progress_reward": {
+          "max": 19.990921617951244,
+          "mean": 17.118759123534886,
+          "min": 3.0303011634387076,
+          "std": 2.810259997739191
+        },
+        "success_count": 462,
+        "success_rate_percent": 90.234375
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 8
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_po_wall_medium_1024x1_tmasac/tmasac_lr=5e-5_bigger_mlps/2026-07-17_23-52-34/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1600000,
+        1600049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_23-52-34",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 293.408203125,
+          "min": 83.0,
+          "std": 108.73041926403917
+        },
+        "episode_return": {
+          "max": 20.013302642852068,
+          "mean": 16.908953154996055,
+          "min": -0.003827163833193481,
+          "std": 3.007241269642183
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": -0.04339379906605245,
+          "min": -0.3881249952246435,
+          "std": 0.06556295353213988
+        },
+        "progress_reward": {
+          "max": 20.013302642852068,
+          "mean": 16.952346921410907,
+          "min": 0.17842295032460243,
+          "std": 2.9638694986562397
+        },
+        "success_count": 452,
+        "success_rate_percent": 88.28125
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 8
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/thesis_mjw_po_wall_medium/tmasac_baseline/2026-08-15_11-45-06/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1600000,
+        1600049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-08-15_11-45-06",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 270.328125,
+          "min": 91.0,
+          "std": 109.01787119658123
+        },
+        "episode_return": {
+          "max": 19.97727469878737,
+          "mean": 17.134619488709916,
+          "min": 3.8848183986265212,
+          "std": 2.8168320979007286
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": -0.02890283224905943,
+          "min": -0.3307500028749928,
+          "std": 0.05505838242854529
+        },
+        "progress_reward": {
+          "max": 20.015149682294577,
+          "mean": 17.16352229543793,
+          "min": 3.8848183986265212,
+          "std": 2.784637842549446
+        },
+        "success_count": 465,
+        "success_rate_percent": 90.8203125
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 8
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_po_wall_medium_1024x1_tmasac/tmasac_lr=5e-5_bigger_mlps/2026-07-17_12-49-19/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1700000,
+        1700049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_12-49-19",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 293.400390625,
+          "min": 119.0,
+          "std": 115.19824047797958
+        },
+        "episode_return": {
+          "max": 19.781419736216776,
+          "mean": 16.626754725979872,
+          "min": 2.255365038639866,
+          "std": 3.2222473357716592
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": -0.041438150726094136,
+          "min": -0.3270000110496767,
+          "std": 0.06475146826479757
+        },
+        "progress_reward": {
+          "max": 19.781419736216776,
+          "mean": 16.66819283831032,
+          "min": 2.4206981642055325,
+          "std": 3.176497257937744
+        },
+        "success_count": 434,
+        "success_rate_percent": 84.765625
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 9
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_po_wall_medium_1024x1_tmasac/tmasac_lr=5e-5_bigger_mlps/2026-07-17_12-49-20/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1700000,
+        1700049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_12-49-20",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 280.560546875,
+          "min": 76.0,
+          "std": 116.98073528502857
+        },
+        "episode_return": {
+          "max": 19.87876362382667,
+          "mean": 16.681689187448985,
+          "min": 2.377285229624249,
+          "std": 3.302700443094411
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": -0.03869466109892983,
+          "min": -0.3686666627181694,
+          "std": 0.06662888744298413
+        },
+        "progress_reward": {
+          "max": 19.90926391229732,
+          "mean": 16.72038381484386,
+          "min": 2.6616184627637267,
+          "std": 3.2550060242803003
+        },
+        "success_count": 436,
+        "success_rate_percent": 85.15625
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 9
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_po_wall_medium_1024x1_tmasac/tmasac_lr=5e-5_bigger_mlps/2026-07-17_23-52-11/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1700000,
+        1700049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_23-52-11",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 330.193359375,
+          "min": 119.0,
+          "std": 105.87588415936416
+        },
+        "episode_return": {
+          "max": 19.911352550727315,
+          "mean": 16.745153636060127,
+          "min": 2.720164679456502,
+          "std": 3.518569723373411
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": -0.023751952919838004,
+          "min": -0.3239999965298921,
+          "std": 0.04085595508269145
+        },
+        "progress_reward": {
+          "max": 19.911685884115286,
+          "mean": 16.768905553083755,
+          "min": 2.8861645932192914,
+          "std": 3.49853334376994
+        },
+        "success_count": 449,
+        "success_rate_percent": 87.6953125
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 9
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_po_wall_medium_1024x1_tmasac/tmasac_lr=5e-5_bigger_mlps/2026-07-17_23-52-34/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1700000,
+        1700049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_23-52-34",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 320.78515625,
+          "min": 97.0,
+          "std": 119.15110193432156
+        },
+        "episode_return": {
+          "max": 19.858442911179736,
+          "mean": 16.307815801837755,
+          "min": 0.6715775971533731,
+          "std": 3.537370927673772
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": -0.0516399736901576,
+          "min": -0.3959999975631945,
+          "std": 0.06929124009003795
+        },
+        "progress_reward": {
+          "max": 19.88713258993812,
+          "mean": 16.359455722103426,
+          "min": 0.8405773135018535,
+          "std": 3.4914417798681687
+        },
+        "success_count": 413,
+        "success_rate_percent": 80.6640625
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 9
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/thesis_mjw_po_wall_medium/tmasac_baseline/2026-08-15_11-45-06/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1700000,
+        1700049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-08-15_11-45-06",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 302.984375,
+          "min": 105.0,
+          "std": 107.75808296067342
+        },
+        "episode_return": {
+          "max": 19.905850192131766,
+          "mean": 16.98094706628019,
+          "min": 4.629799332877155,
+          "std": 3.0484247700249063
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": -0.03150781219687815,
+          "min": -0.3093333300203085,
+          "std": 0.0501869194760483
+        },
+        "progress_reward": {
+          "max": 19.905850192131766,
+          "mean": 17.012454839940172,
+          "min": 4.804465846274979,
+          "std": 3.0205029479448346
+        },
+        "success_count": 455,
+        "success_rate_percent": 88.8671875
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 9
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_po_wall_medium_1024x1_tmasac/tmasac_lr=5e-5_bigger_mlps/2026-07-17_12-49-19/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1800000,
+        1800049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_12-49-19",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 355.427734375,
+          "min": 85.0,
+          "std": 120.17684987729311
+        },
+        "episode_return": {
+          "max": 20.09456654614769,
+          "mean": 15.655811683709377,
+          "min": 3.6170085345511325,
+          "std": 4.027351063140267
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": -0.03862851745975604,
+          "min": -0.3948000187519938,
+          "std": 0.0602590271421003
+        },
+        "progress_reward": {
+          "max": 20.09456654614769,
+          "mean": 15.694440174185292,
+          "min": 3.7331086142221466,
+          "std": 3.998557398527571
+        },
+        "success_count": 380,
+        "success_rate_percent": 74.21875
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 10
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_po_wall_medium_1024x1_tmasac/tmasac_lr=5e-5_bigger_mlps/2026-07-17_12-49-20/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1800000,
+        1800049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_12-49-20",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 312.470703125,
+          "min": 116.0,
+          "std": 120.76206235483524
+        },
+        "episode_return": {
+          "max": 20.104946361272596,
+          "mean": 16.25264897259521,
+          "min": 1.9855891519982833,
+          "std": 3.591395557835232
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": -0.039606447193477834,
+          "min": -0.28950001375051215,
+          "std": 0.06300800578156589
+        },
+        "progress_reward": {
+          "max": 20.104946361272596,
+          "mean": 16.292255386762854,
+          "min": 2.113689188292483,
+          "std": 3.549265742971114
+        },
+        "success_count": 412,
+        "success_rate_percent": 80.46875
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 10
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_po_wall_medium_1024x1_tmasac/tmasac_lr=5e-5_bigger_mlps/2026-07-17_23-52-11/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1800000,
+        1800049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_23-52-11",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 388.80078125,
+          "min": 109.0,
+          "std": 111.37043761425043
+        },
+        "episode_return": {
+          "max": 20.10488720057765,
+          "mean": 15.011110174714641,
+          "min": 1.2392080629942939,
+          "std": 4.5443884803821115
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": -0.024563087104183978,
+          "min": -0.32430001540342346,
+          "std": 0.041070123777709286
+        },
+        "progress_reward": {
+          "max": 20.10488720057765,
+          "mean": 15.035673235068261,
+          "min": 1.2392080629942939,
+          "std": 4.533655115209326
+        },
+        "success_count": 351,
+        "success_rate_percent": 68.5546875
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 10
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_po_wall_medium_1024x1_tmasac/tmasac_lr=5e-5_bigger_mlps/2026-07-17_23-52-34/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1800000,
+        1800049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_23-52-34",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 368.982421875,
+          "min": 116.0,
+          "std": 116.46736098746516
+        },
+        "episode_return": {
+          "max": 20.071601478091907,
+          "mean": 15.351565391239124,
+          "min": 1.7484268074622378,
+          "std": 4.230826195695368
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": -0.05621543235372428,
+          "min": -0.5730000272160396,
+          "std": 0.07558319694222819
+        },
+        "progress_reward": {
+          "max": 20.09740145909018,
+          "mean": 15.407780769041231,
+          "min": 1.7484268074622378,
+          "std": 4.191510766336889
+        },
+        "success_count": 363,
+        "success_rate_percent": 70.8984375
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 10
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/thesis_mjw_po_wall_medium/tmasac_baseline/2026-08-15_11-45-06/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1800000,
+        1800049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-08-15_11-45-06",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 340.119140625,
+          "min": 129.0,
+          "std": 114.42980016100034
+        },
+        "episode_return": {
+          "max": 20.091137312469073,
+          "mean": 16.155355057318946,
+          "min": 2.425181562110083,
+          "std": 3.7806571947601006
+        },
+        "guidance_reward": {
+          "max": 0.0,
+          "mean": -0.0360720720258314,
+          "min": -0.33870001608738676,
+          "std": 0.06040837599873059
+        },
+        "progress_reward": {
+          "max": 20.091137312469073,
+          "mean": 16.191427107646927,
+          "min": 2.425181562110083,
+          "std": 3.748692244400099
+        },
+        "success_count": 410,
+        "success_rate_percent": 80.078125
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 10
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-22_22-01-13/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1000000,
+        1000049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-22_22-01-13",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 313.84375,
+          "min": 95.0,
+          "std": 105.78818293381119
+        },
+        "episode_return": {
+          "max": 18.258482608856866,
+          "mean": 15.2531785080797,
+          "min": -0.4715499062476738,
+          "std": 3.689833937557727
+        },
+        "guidance_reward": {
+          "max": -0.0009299999765062239,
+          "mean": -0.0031096678901931796,
+          "min": -0.005099999871163163,
+          "std": 0.0010564925892658983
+        },
+        "progress_reward": {
+          "max": 18.26260194182396,
+          "mean": 15.256287652402534,
+          "min": -0.4664499759674072,
+          "std": 3.6893837511567456
+        },
+        "success_count": 470,
+        "success_rate_percent": 91.796875
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 2
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-22_22-20-32/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1000000,
+        1000049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-22_22-20-32",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 311.09765625,
+          "min": 111.0,
+          "std": 110.68503947352974
+        },
+        "episode_return": {
+          "max": 18.16462546875846,
+          "mean": 14.717733802217758,
+          "min": -0.7986308138097229,
+          "std": 4.451665847432639
+        },
+        "guidance_reward": {
+          "max": -0.001049999973474769,
+          "mean": -0.003075292891061565,
+          "min": -0.005099999871163163,
+          "std": 0.0011063779272694227
+        },
+        "progress_reward": {
+          "max": 18.167434856295586,
+          "mean": 14.72080859230482,
+          "min": -0.7935608923435211,
+          "std": 4.451015062208598
+        },
+        "success_count": 449,
+        "success_rate_percent": 87.6953125
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 2
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-23_10-57-34/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1000000,
+        1000049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-23_10-57-34",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 280.373046875,
+          "min": 100.0,
+          "std": 107.28912591289973
+        },
+        "episode_return": {
+          "max": 18.352726364442788,
+          "mean": 15.348792575433201,
+          "min": -0.059746317125245696,
+          "std": 3.4133981526832224
+        },
+        "guidance_reward": {
+          "max": -0.0009799999752431177,
+          "mean": -0.002765663992633449,
+          "min": -0.005099999871163163,
+          "std": 0.0010722946923198901
+        },
+        "progress_reward": {
+          "max": 18.357135742902756,
+          "mean": 15.351557717527612,
+          "min": -0.05464634299278259,
+          "std": 3.4128979635737853
+        },
+        "success_count": 474,
+        "success_rate_percent": 92.578125
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 2
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-23_11-23-43/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1000000,
+        1000049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-23_11-23-43",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 302.9921875,
+          "min": 109.0,
+          "std": 115.40170980737176
+        },
+        "episode_return": {
+          "max": 18.363123834198632,
+          "mean": 14.557154098675035,
+          "min": -0.6966846581453865,
+          "std": 4.501753827801359
+        },
+        "guidance_reward": {
+          "max": -0.0010699999729695264,
+          "mean": -0.0029993163304808945,
+          "min": -0.005099999871163163,
+          "std": 0.0011523786764957343
+        },
+        "progress_reward": {
+          "max": 18.367403253912926,
+          "mean": 14.56015291470976,
+          "min": -0.6916147768497467,
+          "std": 4.501084703470895
+        },
+        "success_count": 448,
+        "success_rate_percent": 87.5
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 2
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-24_00-27-58/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1000000,
+        1000049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-24_00-27-58",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 269.873046875,
+          "min": 95.0,
+          "std": 105.00820976132796
+        },
+        "episode_return": {
+          "max": 18.43956455735315,
+          "mean": 15.622821331905314,
+          "min": -0.6993682365500717,
+          "std": 3.3225731703523538
+        },
+        "guidance_reward": {
+          "max": -0.0009299999765062239,
+          "mean": -0.002658730401584819,
+          "min": -0.005099999871163163,
+          "std": 0.0010482088949559595
+        },
+        "progress_reward": {
+          "max": 18.443003982305527,
+          "mean": 15.625479522917885,
+          "min": -0.6943483352661133,
+          "std": 3.322146738262741
+        },
+        "success_count": 483,
+        "success_rate_percent": 94.3359375
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 2
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-24_00-28-06/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1000000,
+        1000049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-24_00-28-06",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 295.8515625,
+          "min": 123.0,
+          "std": 99.62673224997694
+        },
+        "episode_return": {
+          "max": 18.46523863669063,
+          "mean": 15.38673664092915,
+          "min": -0.3754541351518128,
+          "std": 3.36776827050676
+        },
+        "guidance_reward": {
+          "max": -0.0011999999696854502,
+          "mean": -0.0029172655513036716,
+          "min": -0.005099999871163163,
+          "std": 0.000992233459965878
+        },
+        "progress_reward": {
+          "max": 18.468498051166534,
+          "mean": 15.389653374295449,
+          "min": -0.37036436796188354,
+          "std": 3.3673081512291545
+        },
+        "success_count": 477,
+        "success_rate_percent": 93.1640625
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 2
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-28_20-11-25/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1000000,
+        1000049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-28_20-11-25",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 303.453125,
+          "min": 106.0,
+          "std": 108.18257927681506
+        },
+        "episode_return": {
+          "max": 18.351409039096325,
+          "mean": 14.930014995355712,
+          "min": -0.564278160003596,
+          "std": 4.141461139935252
+        },
+        "guidance_reward": {
+          "max": -0.0010399999737273902,
+          "mean": -0.0030094530489748195,
+          "min": -0.005099999871163163,
+          "std": 0.0010805979036769314
+        },
+        "progress_reward": {
+          "max": 18.35447844862938,
+          "mean": 14.933023927835166,
+          "min": -0.559208333492279,
+          "std": 4.1408677947193056
+        },
+        "success_count": 460,
+        "success_rate_percent": 89.84375
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 2
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-28_20-14-08/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1000000,
+        1000049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-28_20-14-08",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 280.181640625,
+          "min": 94.0,
+          "std": 106.97559326107218
+        },
+        "episode_return": {
+          "max": 18.359630126695265,
+          "mean": 15.529845017124693,
+          "min": -0.0789414329592546,
+          "std": 3.227211243849481
+        },
+        "guidance_reward": {
+          "max": -0.0008799999777693301,
+          "mean": -0.0027699803987744076,
+          "min": -0.005099999871163163,
+          "std": 0.0010663273623668418
+        },
+        "progress_reward": {
+          "max": 18.36273956298828,
+          "mean": 15.532614461553749,
+          "min": -0.07455149292945862,
+          "std": 3.2267846375368157
+        },
+        "success_count": 480,
+        "success_rate_percent": 93.75
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 2
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-29_09-30-31/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1000000,
+        1000049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-29_09-30-31",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 296.23046875,
+          "min": 97.0,
+          "std": 112.8309438237369
+        },
+        "episode_return": {
+          "max": 18.100466235922795,
+          "mean": 15.32889122535299,
+          "min": -0.15096925172474585,
+          "std": 3.5800499558866914
+        },
+        "guidance_reward": {
+          "max": -0.0009499999760009814,
+          "mean": -0.002926894457310425,
+          "min": -0.005099999871163163,
+          "std": 0.0011250619163181855
+        },
+        "progress_reward": {
+          "max": 18.105055660009384,
+          "mean": 15.331817591577419,
+          "min": -0.14589932560920715,
+          "std": 3.5795771135979026
+        },
+        "success_count": 472,
+        "success_rate_percent": 92.1875
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 2
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-22_22-01-13/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1100000,
+        1100049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-22_22-01-13",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 309.16796875,
+          "min": 140.0,
+          "std": 88.3368857287205
+        },
+        "episode_return": {
+          "max": 18.254545521907858,
+          "mean": 15.686286714124691,
+          "min": -0.32156907300668536,
+          "std": 2.6852540790248876
+        },
+        "guidance_reward": {
+          "max": -0.0013399999666035,
+          "mean": -0.0030448827358759978,
+          "min": -0.005099999871163163,
+          "std": 0.000878555173073872
+        },
+        "progress_reward": {
+          "max": 18.25826831161976,
+          "mean": 15.689331080851844,
+          "min": -0.31648916006088257,
+          "std": 2.684965416737801
+        },
+        "success_count": 490,
+        "success_rate_percent": 95.703125
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 3
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-22_22-20-32/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1100000,
+        1100049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-22_22-20-32",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 285.4375,
+          "min": 134.0,
+          "std": 89.09990442615525
+        },
+        "episode_return": {
+          "max": 18.06502803085459,
+          "mean": 15.943754314742517,
+          "min": 0.07938978583842982,
+          "std": 2.2797663721008194
+        },
+        "guidance_reward": {
+          "max": -0.0012999999673866114,
+          "mean": -0.002819446543521398,
+          "min": -0.005099999871163163,
+          "std": 0.0008887863703116515
+        },
+        "progress_reward": {
+          "max": 18.068837448954582,
+          "mean": 15.946573227964109,
+          "min": 0.0844830572605133,
+          "std": 2.279547586237108
+        },
+        "success_count": 494,
+        "success_rate_percent": 96.484375
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 3
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-23_10-57-34/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1100000,
+        1100049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-23_10-57-34",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 272.517578125,
+          "min": 117.0,
+          "std": 90.33967845586746
+        },
+        "episode_return": {
+          "max": 18.07669172307942,
+          "mean": 15.941395149748415,
+          "min": 1.5679184228392842,
+          "std": 2.3615113633670126
+        },
+        "guidance_reward": {
+          "max": -0.0011433333045260952,
+          "mean": -0.0026785741513668526,
+          "min": -0.005099999871163163,
+          "std": 0.0009000316526427829
+        },
+        "progress_reward": {
+          "max": 18.08000448346138,
+          "mean": 15.94407318989397,
+          "min": 1.5729717314243317,
+          "std": 2.3612278307586254
+        },
+        "success_count": 493,
+        "success_rate_percent": 96.2890625
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 3
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-23_11-23-43/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1100000,
+        1100049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-23_11-23-43",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 278.03125,
+          "min": 115.0,
+          "std": 92.51141715857293
+        },
+        "episode_return": {
+          "max": 18.097669217506336,
+          "mean": 15.774218727468366,
+          "min": 0.16287231755632092,
+          "std": 2.3790845344093485
+        },
+        "guidance_reward": {
+          "max": -0.001089999973828526,
+          "mean": -0.0027361522749012046,
+          "min": -0.005099999871163163,
+          "std": 0.0009161703540736451
+        },
+        "progress_reward": {
+          "max": 18.100298643112183,
+          "mean": 15.776954347733408,
+          "min": 0.16794553399085999,
+          "std": 2.3788309759094983
+        },
+        "success_count": 493,
+        "success_rate_percent": 96.2890625
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 3
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-24_00-27-58/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1100000,
+        1100049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-24_00-27-58",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 265.91015625,
+          "min": 128.0,
+          "std": 86.3333142352973
+        },
+        "episode_return": {
+          "max": 18.27027803348028,
+          "mean": 16.07225869183211,
+          "min": 0.057619105664343806,
+          "std": 2.2242480209283673
+        },
+        "guidance_reward": {
+          "max": -0.0012233333031872462,
+          "mean": -0.002606477799091955,
+          "min": -0.005099999871163163,
+          "std": 0.0008572535133617246
+        },
+        "progress_reward": {
+          "max": 18.273254096508026,
+          "mean": 16.074864631926175,
+          "min": 0.06270566582679749,
+          "std": 2.224017051214959
+        },
+        "success_count": 496,
+        "success_rate_percent": 96.875
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 3
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-24_00-28-06/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1100000,
+        1100049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-24_00-28-06",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 274.091796875,
+          "min": 102.0,
+          "std": 82.16678310125535
+        },
+        "episode_return": {
+          "max": 18.11804366113938,
+          "mean": 16.038163857470035,
+          "min": 1.319793046106497,
+          "std": 1.8105027128468416
+        },
+        "guidance_reward": {
+          "max": -0.0009599999762031075,
+          "mean": -0.0026858983700313033,
+          "min": -0.005099999871163163,
+          "std": 0.0008180237614241757
+        },
+        "progress_reward": {
+          "max": 18.12184639275074,
+          "mean": 16.040849216165952,
+          "min": 1.3248729705810547,
+          "std": 1.8103567966742249
+        },
+        "success_count": 501,
+        "success_rate_percent": 97.8515625
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 3
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-28_20-11-25/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1100000,
+        1100049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-28_20-11-25",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 284.103515625,
+          "min": 132.0,
+          "std": 85.62905457635499
+        },
+        "episode_return": {
+          "max": 18.299769283330534,
+          "mean": 15.872037379580627,
+          "min": 0.5844395418680506,
+          "std": 2.399235850364455
+        },
+        "guidance_reward": {
+          "max": -0.0012933333007367764,
+          "mean": -0.002808606700019922,
+          "min": -0.005099999871163163,
+          "std": 0.0008549433569150482
+        },
+        "progress_reward": {
+          "max": 18.303948640823364,
+          "mean": 15.874845451122383,
+          "min": 0.5895328521728516,
+          "std": 2.398978229719049
+        },
+        "success_count": 494,
+        "success_rate_percent": 96.484375
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 3
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-28_20-14-08/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1100000,
+        1100049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-28_20-14-08",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 263.484375,
+          "min": 119.0,
+          "std": 87.24536470271286
+        },
+        "episode_return": {
+          "max": 18.236756719168625,
+          "mean": 15.903460919585845,
+          "min": 1.5078724969935138,
+          "std": 2.172445705810081
+        },
+        "guidance_reward": {
+          "max": -0.0010833333076334384,
+          "mean": -0.0025903970702461088,
+          "min": -0.005099999871163163,
+          "std": 0.00086841402850074
+        },
+        "progress_reward": {
+          "max": 18.240036100149155,
+          "mean": 15.90605077764485,
+          "min": 1.5129524767398834,
+          "std": 2.172203010988105
+        },
+        "success_count": 495,
+        "success_rate_percent": 96.6796875
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 3
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-29_09-30-31/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1100000,
+        1100049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-29_09-30-31",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 283.529296875,
+          "min": 110.0,
+          "std": 92.17844829022191
+        },
+        "episode_return": {
+          "max": 18.206142499067937,
+          "mean": 16.019910121574355,
+          "min": -0.3728718978600227,
+          "std": 2.059530111574206
+        },
+        "guidance_reward": {
+          "max": -0.0010333333075323026,
+          "mean": -0.0027828970654666385,
+          "min": -0.005099999871163163,
+          "std": 0.0009203160813938794
+        },
+        "progress_reward": {
+          "max": 18.209121868014336,
+          "mean": 16.022692477010423,
+          "min": -0.3678319454193115,
+          "std": 2.059399037905664
+        },
+        "success_count": 499,
+        "success_rate_percent": 97.4609375
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 3
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-22_22-01-13/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1200000,
+        1200049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-22_22-01-13",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 316.966796875,
+          "min": 151.0,
+          "std": 87.15382902189376
+        },
+        "episode_return": {
+          "max": 17.82637404743582,
+          "mean": 15.646183929915189,
+          "min": 1.5954832889765385,
+          "std": 2.3584539037628747
+        },
+        "guidance_reward": {
+          "max": -0.0014749999627383659,
+          "mean": -0.0031069530465117623,
+          "min": -0.005099999871163163,
+          "std": 0.000867217048956318
+        },
+        "progress_reward": {
+          "max": 17.8305085003376,
+          "mean": 15.649290390196256,
+          "min": 1.6005783081054688,
+          "std": 2.35820632237876
+        },
+        "success_count": 489,
+        "success_rate_percent": 95.5078125
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 4
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-22_22-20-32/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1200000,
+        1200049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-22_22-20-32",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 281.8515625,
+          "min": 137.0,
+          "std": 83.01685538978572
+        },
+        "episode_return": {
+          "max": 18.257658353239094,
+          "mean": 15.94414138114779,
+          "min": -0.0004380833815957885,
+          "std": 2.194902434068535
+        },
+        "guidance_reward": {
+          "max": -0.0013249999665276846,
+          "mean": -0.0027748583283386807,
+          "min": -0.005099999871163163,
+          "std": 0.0008260407625960141
+        },
+        "progress_reward": {
+          "max": 18.26212278008461,
+          "mean": 15.946915715641808,
+          "min": 0.004601866006851196,
+          "std": 2.1947006599266428
+        },
+        "success_count": 497,
+        "success_rate_percent": 97.0703125
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 4
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-23_10-57-34/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1200000,
+        1200049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-23_10-57-34",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 273.3359375,
+          "min": 128.0,
+          "std": 79.26488694400626
+        },
+        "episode_return": {
+          "max": 18.18986877897987,
+          "mean": 16.141347374733783,
+          "min": 4.815041048579587,
+          "std": 1.4782972251359239
+        },
+        "guidance_reward": {
+          "max": -0.0011874999700012268,
+          "mean": -0.002668227471657403,
+          "min": -0.005099999871163163,
+          "std": 0.0007892224857971661
+        },
+        "progress_reward": {
+          "max": 18.192930728197098,
+          "mean": 16.14401508649462,
+          "min": 4.820141077041626,
+          "std": 1.4783051002259564
+        },
+        "success_count": 504,
+        "success_rate_percent": 98.4375
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 4
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-23_11-23-43/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1200000,
+        1200049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-23_11-23-43",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 273.1328125,
+          "min": 133.0,
+          "std": 82.75709194437565
+        },
+        "episode_return": {
+          "max": 17.932090706992312,
+          "mean": 15.9475537776256,
+          "min": 3.293944206165179,
+          "std": 1.5116990379106074
+        },
+        "guidance_reward": {
+          "max": -0.0013099999669066165,
+          "mean": -0.0026737499324553937,
+          "min": -0.005099999871163163,
+          "std": 0.0008238177430222246
+        },
+        "progress_reward": {
+          "max": 17.935485154390335,
+          "mean": 15.950227003108012,
+          "min": 3.2990241646766663,
+          "std": 1.511670550708364
+        },
+        "success_count": 504,
+        "success_rate_percent": 98.4375
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 4
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-24_00-27-58/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1200000,
+        1200049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-24_00-27-58",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 264.482421875,
+          "min": 130.0,
+          "std": 81.665378625275
+        },
+        "episode_return": {
+          "max": 18.06611118170258,
+          "mean": 16.066521979035908,
+          "min": 2.420134658266761,
+          "std": 1.887819154780905
+        },
+        "guidance_reward": {
+          "max": -0.001264999968043412,
+          "mean": -0.0025900682939443698,
+          "min": -0.005099999871163163,
+          "std": 0.0008114106496318067
+        },
+        "progress_reward": {
+          "max": 18.068865552544594,
+          "mean": 16.069111515389523,
+          "min": 2.4251744747161865,
+          "std": 1.8876350755238145
+        },
+        "success_count": 498,
+        "success_rate_percent": 97.265625
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 4
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-24_00-28-06/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1200000,
+        1200049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-24_00-28-06",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 272.75,
+          "min": 119.0,
+          "std": 69.11276451387255
+        },
+        "episode_return": {
+          "max": 17.99787230187212,
+          "mean": 16.17377827720638,
+          "min": 4.898948090878548,
+          "std": 1.0260499937644898
+        },
+        "guidance_reward": {
+          "max": -0.001169999970443314,
+          "mean": -0.0026613622374558332,
+          "min": -0.005099999871163163,
+          "std": 0.000683009706182756
+        },
+        "progress_reward": {
+          "max": 18.001001745462418,
+          "mean": 16.176439098402625,
+          "min": 4.9040480852127075,
+          "std": 1.026213216938883
+        },
+        "success_count": 510,
+        "success_rate_percent": 99.609375
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 4
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-28_20-11-25/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1200000,
+        1200049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-28_20-11-25",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 291.466796875,
+          "min": 124.0,
+          "std": 81.7152477206824
+        },
+        "episode_return": {
+          "max": 18.036267197690904,
+          "mean": 16.03566648215883,
+          "min": -0.6687114940250467,
+          "std": 1.7402116107580734
+        },
+        "guidance_reward": {
+          "max": -0.0012199999691802077,
+          "mean": -0.0028752343023654703,
+          "min": -0.005099999871163163,
+          "std": 0.0008135214639901823
+        },
+        "progress_reward": {
+          "max": 18.03922662138939,
+          "mean": 16.038541185640497,
+          "min": -0.6636315286159515,
+          "std": 1.74011701994585
+        },
+        "success_count": 501,
+        "success_rate_percent": 97.8515625
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 4
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-28_20-14-08/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1200000,
+        1200049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-28_20-14-08",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 509.0,
+          "mean": 258.48828125,
+          "min": 116.0,
+          "std": 74.46383782696738
+        },
+        "episode_return": {
+          "max": 18.072183887285064,
+          "mean": 16.20971757645326,
+          "min": 14.37918131276092,
+          "std": 0.7998676223284804
+        },
+        "guidance_reward": {
+          "max": -0.0010749999728432158,
+          "mean": -0.002525068295586408,
+          "min": -0.005039999872678891,
+          "std": 0.0007418051427892097
+        },
+        "progress_reward": {
+          "max": 18.075718343257904,
+          "mean": 16.212242104666075,
+          "min": 14.381310790777206,
+          "std": 0.8003647397852168
+        },
+        "success_count": 512,
+        "success_rate_percent": 100.0
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 4
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-29_09-30-31/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1200000,
+        1200049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-29_09-30-31",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 281.5625,
+          "min": 137.0,
+          "std": 88.46549910134459
+        },
+        "episode_return": {
+          "max": 17.86867143883137,
+          "mean": 15.999758669176092,
+          "min": 4.0967840401535796,
+          "std": 1.5489169342945288
+        },
+        "guidance_reward": {
+          "max": -0.0011799999701906927,
+          "mean": -0.0027529296179551466,
+          "min": -0.005099999871163163,
+          "std": 0.0008862120635529434
+        },
+        "progress_reward": {
+          "max": 17.872410893440247,
+          "mean": 16.00251106513315,
+          "min": 4.101743936538696,
+          "std": 1.5489429817332645
+        },
+        "success_count": 503,
+        "success_rate_percent": 98.2421875
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 4
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-22_22-01-13/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1300000,
+        1300049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-22_22-01-13",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 328.443359375,
+          "min": 162.0,
+          "std": 80.27745292477583
+        },
+        "episode_return": {
+          "max": 17.976903234841302,
+          "mean": 15.781170573780939,
+          "min": 1.248917992128554,
+          "std": 2.009770958176546
+        },
+        "guidance_reward": {
+          "max": -0.0015839999614399858,
+          "mean": -0.0032113866422203152,
+          "min": -0.0050879998725577025,
+          "std": 0.0007945812127859205
+        },
+        "progress_reward": {
+          "max": 17.980802685022354,
+          "mean": 15.784381469653454,
+          "min": 1.2539819777011871,
+          "std": 2.0096097112146873
+        },
+        "success_count": 495,
+        "success_rate_percent": 96.6796875
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 5
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-22_22-20-32/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1300000,
+        1300049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-22_22-20-32",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 293.73828125,
+          "min": 131.0,
+          "std": 82.42374470257887
+        },
+        "episode_return": {
+          "max": 17.97119903643761,
+          "mean": 15.951699374551199,
+          "min": 1.8188173044727591,
+          "std": 1.908523180103618
+        },
+        "guidance_reward": {
+          "max": -0.0012179999757790938,
+          "mean": -0.0028868007107880622,
+          "min": -0.00509599987162801,
+          "std": 0.0008210635091452508
+        },
+        "progress_reward": {
+          "max": 17.975980520248413,
+          "mean": 15.954585661704186,
+          "min": 1.8239013254642487,
+          "std": 1.908356192733424
+        },
+        "success_count": 497,
+        "success_rate_percent": 97.0703125
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 5
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-23_10-57-34/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1300000,
+        1300049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-23_10-57-34",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 285.3125,
+          "min": 145.0,
+          "std": 78.90448636642913
+        },
+        "episode_return": {
+          "max": 18.04884136358305,
+          "mean": 16.09331879111558,
+          "min": 3.2742159054323565,
+          "std": 1.427323749629911
+        },
+        "guidance_reward": {
+          "max": -0.0013759999696958403,
+          "mean": -0.0027709022787894,
+          "min": -0.005099999871163163,
+          "std": 0.0007816922892399456
+        },
+        "progress_reward": {
+          "max": 18.05274298787117,
+          "mean": 16.096089191851206,
+          "min": 3.279279887676239,
+          "std": 1.4273162410236984
+        },
+        "success_count": 504,
+        "success_rate_percent": 98.4375
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 5
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-23_11-23-43/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1300000,
+        1300049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-23_11-23-43",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 281.7578125,
+          "min": 146.0,
+          "std": 83.88242758596608
+        },
+        "episode_return": {
+          "max": 17.96083475582782,
+          "mean": 15.77382316861162,
+          "min": 1.957125647131761,
+          "std": 1.8732727131250577
+        },
+        "guidance_reward": {
+          "max": -0.0014299999675131403,
+          "mean": -0.0027422616541841194,
+          "min": -0.00509599987162801,
+          "std": 0.000826175923388786
+        },
+        "progress_reward": {
+          "max": 17.96455419063568,
+          "mean": 15.776564916304778,
+          "min": 1.9621736407279968,
+          "std": 1.8730993716385629
+        },
+        "success_count": 498,
+        "success_rate_percent": 97.265625
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 5
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-24_00-27-58/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1300000,
+        1300049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-24_00-27-58",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 288.220703125,
+          "min": 128.0,
+          "std": 85.20384633780107
+        },
+        "episode_return": {
+          "max": 17.837501883772347,
+          "mean": 15.906075643987723,
+          "min": 0.9414959513997019,
+          "std": 2.180631915725261
+        },
+        "guidance_reward": {
+          "max": -0.001175999979068365,
+          "mean": -0.002811363214127116,
+          "min": -0.0050939998714056856,
+          "std": 0.0008402462564555653
+        },
+        "progress_reward": {
+          "max": 17.84246337413788,
+          "mean": 15.908886488556163,
+          "min": 0.9465599060058594,
+          "std": 2.180387024201636
+        },
+        "success_count": 494,
+        "success_rate_percent": 96.484375
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 5
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-24_00-28-06/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1300000,
+        1300049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-24_00-28-06",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 280.375,
+          "min": 149.0,
+          "std": 69.42422240291928
+        },
+        "episode_return": {
+          "max": 18.205272653969587,
+          "mean": 16.115269270789092,
+          "min": 7.360088648958481,
+          "std": 1.0684254853875232
+        },
+        "guidance_reward": {
+          "max": -0.001453999964724062,
+          "mean": -0.002741222590626702,
+          "min": -0.005083999873022549,
+          "std": 0.000687549945124919
+        },
+        "progress_reward": {
+          "max": 18.20830810070038,
+          "mean": 16.11800996301463,
+          "min": 7.36517259478569,
+          "std": 1.0685590511862457
+        },
+        "success_count": 508,
+        "success_rate_percent": 99.21875
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 5
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-28_20-11-25/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1300000,
+        1300049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-28_20-11-25",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 299.970703125,
+          "min": 149.0,
+          "std": 80.11306171479227
+        },
+        "episode_return": {
+          "max": 17.98919967234542,
+          "mean": 15.975420403390402,
+          "min": 0.9027150312795129,
+          "std": 1.778647025057486
+        },
+        "guidance_reward": {
+          "max": -0.001439999967260519,
+          "mean": -0.002951515552817696,
+          "min": -0.005099999871163163,
+          "std": 0.0007961781950965775
+        },
+        "progress_reward": {
+          "max": 17.99236312508583,
+          "mean": 15.978371397097362,
+          "min": 0.9077590107917786,
+          "std": 1.7785418882754338
+        },
+        "success_count": 501,
+        "success_rate_percent": 97.8515625
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 5
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-28_20-14-08/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1300000,
+        1300049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-28_20-14-08",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 271.40234375,
+          "min": 132.0,
+          "std": 72.51763143889103
+        },
+        "episode_return": {
+          "max": 17.878779378312174,
+          "mean": 16.12408130232045,
+          "min": 4.42148233485932,
+          "std": 1.2842580378392334
+        },
+        "guidance_reward": {
+          "max": -0.001275999969948316,
+          "mean": -0.0026410975938873094,
+          "min": -0.005099999871163163,
+          "std": 0.0007204979911047206
+        },
+        "progress_reward": {
+          "max": 17.882086992263794,
+          "mean": 16.12672187469434,
+          "min": 4.4265822768211365,
+          "std": 1.284366539481802
+        },
+        "success_count": 507,
+        "success_rate_percent": 99.0234375
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 5
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-29_09-30-31/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1300000,
+        1300049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-29_09-30-31",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 287.978515625,
+          "min": 147.0,
+          "std": 80.4383348304565
+        },
+        "episode_return": {
+          "max": 18.22253688132696,
+          "mean": 15.949297020459163,
+          "min": 3.8182512674266036,
+          "std": 1.5961343989011225
+        },
+        "guidance_reward": {
+          "max": -0.0013839999774063472,
+          "mean": -0.0028116366517392244,
+          "min": -0.005067999874881934,
+          "std": 0.00079685068651426
+        },
+        "progress_reward": {
+          "max": 18.226012349128723,
+          "mean": 15.952108133555157,
+          "min": 3.823259115219116,
+          "std": 1.5961083139332508
+        },
+        "success_count": 503,
+        "success_rate_percent": 98.2421875
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 5
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-22_22-01-13/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1400000,
+        1400049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-22_22-01-13",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 339.431640625,
+          "min": 174.0,
+          "std": 79.42539747773283
+        },
+        "episode_return": {
+          "max": 17.926060350484477,
+          "mean": 15.54401371644486,
+          "min": 4.1005284267776005,
+          "std": 2.146793113176341
+        },
+        "guidance_reward": {
+          "max": -0.001663333293663527,
+          "mean": -0.0032989257010014317,
+          "min": -0.005099999871163163,
+          "std": 0.0007844241340495336
+        },
+        "progress_reward": {
+          "max": 17.929206401109695,
+          "mean": 15.547312201524619,
+          "min": 4.105613470077515,
+          "std": 2.146563988017607
+        },
+        "success_count": 487,
+        "success_rate_percent": 95.1171875
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 6
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-22_22-20-32/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1400000,
+        1400049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-22_22-20-32",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 310.587890625,
+          "min": 141.0,
+          "std": 80.04571502577785
+        },
+        "episode_return": {
+          "max": 17.895460815852857,
+          "mean": 16.0838272358818,
+          "min": 5.377180123541621,
+          "std": 1.2688181193163224
+        },
+        "guidance_reward": {
+          "max": -0.0013833332986905589,
+          "mean": -0.003044651617490457,
+          "min": -0.0050966665380656195,
+          "std": 0.0007932611302780096
+        },
+        "progress_reward": {
+          "max": 17.899411916732788,
+          "mean": 16.086871386534767,
+          "min": 5.382216721773148,
+          "std": 1.2688770809864278
+        },
+        "success_count": 505,
+        "success_rate_percent": 98.6328125
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 6
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-23_10-57-34/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1400000,
+        1400049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-23_10-57-34",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 303.640625,
+          "min": 155.0,
+          "std": 80.82269699539465
+        },
+        "episode_return": {
+          "max": 17.98964077171695,
+          "mean": 15.91398896019788,
+          "min": 4.5182739709816815,
+          "std": 1.7500221554159852
+        },
+        "guidance_reward": {
+          "max": -0.001503333296341225,
+          "mean": -0.002946083912834574,
+          "min": -0.005088333205094386,
+          "std": 0.0007956557688616879
+        },
+        "progress_reward": {
+          "max": 17.992080211639404,
+          "mean": 15.916934588749427,
+          "min": 4.523337244987488,
+          "std": 1.749905067122186
+        },
+        "success_count": 499,
+        "success_rate_percent": 97.4609375
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 6
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-23_11-23-43/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1400000,
+        1400049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-23_11-23-43",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 286.638671875,
+          "min": 137.0,
+          "std": 77.82710899879993
+        },
+        "episode_return": {
+          "max": 17.872315800894285,
+          "mean": 15.853173076998168,
+          "min": 2.401109511469258,
+          "std": 1.5690027697535427
+        },
+        "guidance_reward": {
+          "max": -0.0013166666349206935,
+          "mean": -0.0027788833962569814,
+          "min": -0.005089999871870532,
+          "std": 0.000765953075519501
+        },
+        "progress_reward": {
+          "max": 17.87562522292137,
+          "mean": 15.855951487144921,
+          "min": 2.4060195088386536,
+          "std": 1.5689485110952195
+        },
+        "success_count": 503,
+        "success_rate_percent": 98.2421875
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 6
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-24_00-27-58/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1400000,
+        1400049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-24_00-27-58",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 300.9296875,
+          "min": 145.0,
+          "std": 87.80003769163396
+        },
+        "episode_return": {
+          "max": 17.99527373285673,
+          "mean": 15.791451386605376,
+          "min": 0.4498125490390521,
+          "std": 2.2061320128906794
+        },
+        "guidance_reward": {
+          "max": -0.001409999965062525,
+          "mean": -0.0029234341733612723,
+          "min": -0.005089999871643158,
+          "std": 0.0008647355611024963
+        },
+        "progress_reward": {
+          "max": 17.998809844255447,
+          "mean": 15.794374324206728,
+          "min": 0.45455923676490784,
+          "std": 2.205868339812797
+        },
+        "success_count": 489,
+        "success_rate_percent": 95.5078125
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 6
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-24_00-28-06/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1400000,
+        1400049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-24_00-28-06",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 288.693359375,
+          "min": 146.0,
+          "std": 66.69951943906418
+        },
+        "episode_return": {
+          "max": 17.951007878269593,
+          "mean": 16.089081299086285,
+          "min": 5.5145608694365364,
+          "std": 0.9698192688739432
+        },
+        "guidance_reward": {
+          "max": -0.0013066666397207882,
+          "mean": -0.0027978677706970156,
+          "min": -0.0050966665380656195,
+          "std": 0.0006571538546972415
+        },
+        "progress_reward": {
+          "max": 17.953983962535858,
+          "mean": 16.091878651699517,
+          "min": 5.5195974707603455,
+          "std": 0.9699864965929355
+        },
+        "success_count": 510,
+        "success_rate_percent": 99.609375
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 6
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-28_20-11-25/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1400000,
+        1400049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-28_20-11-25",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 305.189453125,
+          "min": 142.0,
+          "std": 78.39210119258462
+        },
+        "episode_return": {
+          "max": 17.937484292007866,
+          "mean": 16.021211923515718,
+          "min": 4.81903822618915,
+          "std": 1.3264224298985388
+        },
+        "guidance_reward": {
+          "max": -0.001391666631661792,
+          "mean": -0.0029974445871920885,
+          "min": -0.005076666539480357,
+          "std": 0.00077753015064173
+        },
+        "progress_reward": {
+          "max": 17.940977066755295,
+          "mean": 16.024208849063143,
+          "min": 4.824048101902008,
+          "std": 1.3264964719826426
+        },
+        "success_count": 506,
+        "success_rate_percent": 98.828125
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 6
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-28_20-14-08/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1400000,
+        1400049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-28_20-14-08",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 280.2890625,
+          "min": 130.0,
+          "std": 77.51505925703142
+        },
+        "episode_return": {
+          "max": 17.892893698113767,
+          "mean": 16.006699969782986,
+          "min": 2.306975861534738,
+          "std": 1.5408476418964299
+        },
+        "guidance_reward": {
+          "max": -0.001169999973853919,
+          "mean": -0.0027227115221539755,
+          "min": -0.005083333205675444,
+          "std": 0.0007692087832169945
+        },
+        "progress_reward": {
+          "max": 17.89653319120407,
+          "mean": 16.009422186180018,
+          "min": 2.3119424879550934,
+          "std": 1.5408532760036335
+        },
+        "success_count": 504,
+        "success_rate_percent": 98.4375
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 6
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-29_09-30-31/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1400000,
+        1400049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-29_09-30-31",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 292.869140625,
+          "min": 144.0,
+          "std": 78.15784600057101
+        },
+        "episode_return": {
+          "max": 18.014738117271918,
+          "mean": 15.88335177985736,
+          "min": 2.3698586412392615,
+          "std": 1.5252991937582918
+        },
+        "guidance_reward": {
+          "max": -0.0013616666373081898,
+          "mean": -0.0028544335236584395,
+          "min": -0.005089999871870532,
+          "std": 0.0007797575508732466
+        },
+        "progress_reward": {
+          "max": 18.01878422498703,
+          "mean": 15.886205708782654,
+          "min": 2.3748885691165924,
+          "std": 1.5252547132906198
+        },
+        "success_count": 503,
+        "success_rate_percent": 98.2421875
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 6
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-22_22-01-13/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1500000,
+        1500049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-22_22-01-13",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 363.9765625,
+          "min": 162.0,
+          "std": 78.23856394504946
+        },
+        "episode_return": {
+          "max": 17.759361516596982,
+          "mean": 15.280159386716093,
+          "min": 4.324337287709568,
+          "std": 2.497265076341275
+        },
+        "guidance_reward": {
+          "max": -0.0014985713974056125,
+          "mean": -0.003515742105515862,
+          "min": -0.005085714158212795,
+          "std": 0.0007654661815851146
+        },
+        "progress_reward": {
+          "max": 17.764068126678467,
+          "mean": 15.283674657694064,
+          "min": 4.329020112752914,
+          "std": 2.4970135901757184
+        },
+        "success_count": 480,
+        "success_rate_percent": 93.75
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 7
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-22_22-20-32/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1500000,
+        1500049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-22_22-20-32",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 335.283203125,
+          "min": 152.0,
+          "std": 81.68616027433895
+        },
+        "episode_return": {
+          "max": 17.853385640457418,
+          "mean": 15.66865523708362,
+          "min": 5.444889375678031,
+          "std": 2.0971084035693974
+        },
+        "guidance_reward": {
+          "max": -0.0014971428195167391,
+          "mean": -0.0032821483579157373,
+          "min": -0.00509714272857309,
+          "std": 0.0008089149416250609
+        },
+        "progress_reward": {
+          "max": 17.857323706150055,
+          "mean": 15.671936887549236,
+          "min": 5.449986487627029,
+          "std": 2.096881989310151
+        },
+        "success_count": 487,
+        "success_rate_percent": 95.1171875
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 7
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-23_10-57-34/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1500000,
+        1500049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-23_10-57-34",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 332.6171875,
+          "min": 169.0,
+          "std": 80.21990003010377
+        },
+        "episode_return": {
+          "max": 17.93872071644728,
+          "mean": 15.494366353362787,
+          "min": 4.264020707621967,
+          "std": 2.322779120362379
+        },
+        "guidance_reward": {
+          "max": -0.001658571387451957,
+          "mean": -0.0032099022689107137,
+          "min": -0.00509714272857309,
+          "std": 0.0007902632696429946
+        },
+        "progress_reward": {
+          "max": 17.943610161542892,
+          "mean": 15.497575766930822,
+          "min": 4.26911786198616,
+          "std": 2.322496644124651
+        },
+        "success_count": 484,
+        "success_rate_percent": 94.53125
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 7
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-23_11-23-43/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1500000,
+        1500049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-23_11-23-43",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 307.916015625,
+          "min": 149.0,
+          "std": 78.62417264906357
+        },
+        "episode_return": {
+          "max": 18.26300476587494,
+          "mean": 15.573228655536123,
+          "min": 1.7574843266047537,
+          "std": 1.938444387061672
+        },
+        "guidance_reward": {
+          "max": -0.0014671428202746029,
+          "mean": -0.002970722587001484,
+          "min": -0.005099999871163163,
+          "std": 0.0007645132208306115
+        },
+        "progress_reward": {
+          "max": 18.266758531332016,
+          "mean": 15.576198869559448,
+          "min": 1.762561559677124,
+          "std": 1.9382699518753737
+        },
+        "success_count": 495,
+        "success_rate_percent": 96.6796875
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 7
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-24_00-27-58/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1500000,
+        1500049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-24_00-27-58",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 327.119140625,
+          "min": 146.0,
+          "std": 85.21782444058563
+        },
+        "episode_return": {
+          "max": 17.771461304721015,
+          "mean": 15.600452141193948,
+          "min": 0.7821229536239116,
+          "std": 2.3387174138474336
+        },
+        "guidance_reward": {
+          "max": -0.0014085713946769829,
+          "mean": -0.003184804611303216,
+          "min": -0.005077142730442574,
+          "std": 0.0008417536087568957
+        },
+        "progress_reward": {
+          "max": 17.7744879424572,
+          "mean": 15.603636449610349,
+          "min": 0.7871401309967041,
+          "std": 2.3384431336926097
+        },
+        "success_count": 485,
+        "success_rate_percent": 94.7265625
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 7
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-24_00-28-06/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1500000,
+        1500049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-24_00-28-06",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 310.638671875,
+          "min": 151.0,
+          "std": 77.6322982969143
+        },
+        "episode_return": {
+          "max": 17.877987065643538,
+          "mean": 15.901331366918948,
+          "min": 2.2563132292575574,
+          "std": 1.4487460408364938
+        },
+        "guidance_reward": {
+          "max": -0.0013985713994770776,
+          "mean": -0.0030108007102167544,
+          "min": -0.005045714161951764,
+          "std": 0.000763377294677683
+        },
+        "progress_reward": {
+          "max": 17.8819722533226,
+          "mean": 15.904341642628424,
+          "min": 2.2613588869571686,
+          "std": 1.4487615571924892
+        },
+        "success_count": 505,
+        "success_rate_percent": 98.6328125
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 7
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-28_20-11-25/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1500000,
+        1500049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-28_20-11-25",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 342.26171875,
+          "min": 173.0,
+          "std": 82.11376123735837
+        },
+        "episode_return": {
+          "max": 17.931806778360624,
+          "mean": 15.472680195930836,
+          "min": 0.7735506017961598,
+          "std": 2.3689791577201915
+        },
+        "guidance_reward": {
+          "max": -0.0016871428160811774,
+          "mean": -0.003363074694427981,
+          "min": -0.005094285585983016,
+          "std": 0.0008159848974308339
+        },
+        "progress_reward": {
+          "max": 17.93494474887848,
+          "mean": 15.476042779919226,
+          "min": 0.778599202632904,
+          "std": 2.368716927934602
+        },
+        "success_count": 483,
+        "success_rate_percent": 94.3359375
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 7
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-28_20-14-08/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1500000,
+        1500049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-28_20-14-08",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 302.91015625,
+          "min": 161.0,
+          "std": 78.4350082670397
+        },
+        "episode_return": {
+          "max": 17.75402891320482,
+          "mean": 15.839743881683358,
+          "min": 5.650311821613286,
+          "std": 1.649416946984951
+        },
+        "guidance_reward": {
+          "max": -0.001474285689255339,
+          "mean": -0.0029298604220555635,
+          "min": -0.005091428443392942,
+          "std": 0.0007767027039095163
+        },
+        "progress_reward": {
+          "max": 17.758095532655716,
+          "mean": 15.84267323135282,
+          "min": 5.655346065759659,
+          "std": 1.6493561216658088
+        },
+        "success_count": 499,
+        "success_rate_percent": 97.4609375
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 7
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-29_09-30-31/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1500000,
+        1500049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-29_09-30-31",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 319.50390625,
+          "min": 152.0,
+          "std": 80.1799001682542
+        },
+        "episode_return": {
+          "max": 17.79137308043937,
+          "mean": 15.532663488651313,
+          "min": 1.0631986481239437,
+          "std": 2.0325498112936895
+        },
+        "guidance_reward": {
+          "max": -0.001432857110103214,
+          "mean": -0.003109729278236273,
+          "min": -0.00509714272857309,
+          "std": 0.0007988917271668517
+        },
+        "progress_reward": {
+          "max": 17.79503110051155,
+          "mean": 15.535772711969912,
+          "min": 1.0682701170444489,
+          "std": 2.03234507469228
+        },
+        "success_count": 492,
+        "success_rate_percent": 96.09375
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 7
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-22_22-01-13/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1600000,
+        1600049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-22_22-01-13",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 385.123046875,
+          "min": 192.0,
+          "std": 77.13030836734384
+        },
+        "episode_return": {
+          "max": 17.41721488632902,
+          "mean": 14.94930196825168,
+          "min": 4.514322053932119,
+          "std": 2.8139731832660715
+        },
+        "guidance_reward": {
+          "max": -0.0018637499529177148,
+          "mean": -0.0037053832071753945,
+          "min": -0.0050824998716052505,
+          "std": 0.000754562290320016
+        },
+        "progress_reward": {
+          "max": 17.42179372906685,
+          "mean": 14.953007005853578,
+          "min": 4.519004553556442,
+          "std": 2.8136951235944663
+        },
+        "success_count": 466,
+        "success_rate_percent": 91.015625
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 8
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-22_22-20-32/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1600000,
+        1600049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-22_22-20-32",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 362.20703125,
+          "min": 166.0,
+          "std": 84.43104683297207
+        },
+        "episode_return": {
+          "max": 17.75465461263957,
+          "mean": 15.325987000101307,
+          "min": 5.647956773409533,
+          "std": 2.5357399828580913
+        },
+        "guidance_reward": {
+          "max": -0.0016299999588227365,
+          "mean": -0.00353753409032187,
+          "min": -0.005092499871352629,
+          "std": 0.0008318125669227372
+        },
+        "progress_reward": {
+          "max": 17.75823411345482,
+          "mean": 15.329524120199494,
+          "min": 5.652891755104065,
+          "std": 2.535421910237156
+        },
+        "success_count": 473,
+        "success_rate_percent": 92.3828125
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 8
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-23_10-57-34/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1600000,
+        1600049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-23_10-57-34",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 357.546875,
+          "min": 178.0,
+          "std": 80.5513092862827
+        },
+        "episode_return": {
+          "max": 17.798851682280656,
+          "mean": 15.143902486150225,
+          "min": 1.8552065035655687,
+          "std": 2.649053921111979
+        },
+        "guidance_reward": {
+          "max": -0.0017174999566123006,
+          "mean": -0.0034244286244291544,
+          "min": -0.005099999871163163,
+          "std": 0.0007791200124430446
+        },
+        "progress_reward": {
+          "max": 17.80372366309166,
+          "mean": 15.147326584265102,
+          "min": 1.8602490425109863,
+          "std": 2.648722646383817
+        },
+        "success_count": 472,
+        "success_rate_percent": 92.1875
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 8
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-23_11-23-43/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1600000,
+        1600049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-23_11-23-43",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 324.1484375,
+          "min": 168.0,
+          "std": 80.46523316040657
+        },
+        "episode_return": {
+          "max": 17.771138795655133,
+          "mean": 15.500375083394117,
+          "min": 2.3155756920932618,
+          "std": 1.8870037507647897
+        },
+        "guidance_reward": {
+          "max": -0.0015924999597700662,
+          "mean": -0.003125180585113796,
+          "min": -0.0050749998717947165,
+          "std": 0.0007880886801419073
+        },
+        "progress_reward": {
+          "max": 17.775630801916122,
+          "mean": 15.50349985162029,
+          "min": 2.3204782009124756,
+          "std": 1.8868761257679698
+        },
+        "success_count": 496,
+        "success_rate_percent": 96.875
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 8
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-24_00-27-58/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1600000,
+        1600049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-24_00-27-58",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 349.65234375,
+          "min": 169.0,
+          "std": 88.10336743781043
+        },
+        "episode_return": {
+          "max": 17.808271811136365,
+          "mean": 15.292363130832143,
+          "min": 4.0274599406839116,
+          "std": 2.6822980877755676
+        },
+        "guidance_reward": {
+          "max": -0.0015949999597069109,
+          "mean": -0.0033857762816555947,
+          "min": -0.005089999871415785,
+          "std": 0.0008676117663407664
+        },
+        "progress_reward": {
+          "max": 17.812911301851273,
+          "mean": 15.295748478441965,
+          "min": 4.03245997428894,
+          "std": 2.6819490327084687
+        },
+        "success_count": 471,
+        "success_rate_percent": 91.9921875
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 8
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-24_00-28-06/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1600000,
+        1600049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-24_00-28-06",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 327.0234375,
+          "min": 157.0,
+          "std": 72.44048902846801
+        },
+        "episode_return": {
+          "max": 17.720874949012796,
+          "mean": 15.827076277196085,
+          "min": 5.530608149016189,
+          "std": 1.3591273674644566
+        },
+        "guidance_reward": {
+          "max": -0.0015324999612857937,
+          "mean": -0.003166977459057918,
+          "min": -0.005056249872268381,
+          "std": 0.0007131148109301163
+        },
+        "progress_reward": {
+          "max": 17.724714368581772,
+          "mean": 15.830242767522577,
+          "min": 5.535664319992065,
+          "std": 1.3591240886977236
+        },
+        "success_count": 504,
+        "success_rate_percent": 98.4375
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 8
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-28_20-11-25/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1600000,
+        1600049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-28_20-11-25",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 359.28515625,
+          "min": 169.0,
+          "std": 80.77948338478704
+        },
+        "episode_return": {
+          "max": 17.755747614402935,
+          "mean": 15.464548585292947,
+          "min": 4.570008748429245,
+          "std": 2.1105387595193545
+        },
+        "guidance_reward": {
+          "max": -0.0016299999588227365,
+          "mean": -0.0035264403406021216,
+          "min": -0.005099999871163163,
+          "std": 0.0007984418717061654
+        },
+        "progress_reward": {
+          "max": 17.76058715581894,
+          "mean": 15.468074540840462,
+          "min": 4.574948787689209,
+          "std": 2.110366112157531
+        },
+        "success_count": 488,
+        "success_rate_percent": 95.3125
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 8
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-28_20-14-08/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1600000,
+        1600049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-28_20-14-08",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 323.373046875,
+          "min": 139.0,
+          "std": 73.87996689160096
+        },
+        "episode_return": {
+          "max": 17.901233655724354,
+          "mean": 15.839814492295151,
+          "min": 3.6208240298183227,
+          "std": 1.6832891603430344
+        },
+        "guidance_reward": {
+          "max": -0.0013549999657698208,
+          "mean": -0.003126181561651009,
+          "min": -0.0050749998717947165,
+          "std": 0.0007365097908526718
+        },
+        "progress_reward": {
+          "max": 17.9055218398571,
+          "mean": 15.842940238246229,
+          "min": 3.6256764233112335,
+          "std": 1.6832455325389724
+        },
+        "success_count": 501,
+        "success_rate_percent": 97.8515625
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 8
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-29_09-30-31/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1600000,
+        1600049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-29_09-30-31",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 332.2109375,
+          "min": 172.0,
+          "std": 77.01439621344242
+        },
+        "episode_return": {
+          "max": 17.732379047156428,
+          "mean": 15.55474363361434,
+          "min": 5.803033319622045,
+          "std": 1.5718584452973412
+        },
+        "guidance_reward": {
+          "max": -0.0015974999596437556,
+          "mean": -0.0032310179847838683,
+          "min": -0.0050749998717947165,
+          "std": 0.0007633300340379538
+        },
+        "progress_reward": {
+          "max": 17.736073553562164,
+          "mean": 15.55797419627197,
+          "min": 5.808108299970627,
+          "std": 1.5717880828214006
+        },
+        "success_count": 500,
+        "success_rate_percent": 97.65625
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 8
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-22_22-01-13/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1700000,
+        1700049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-22_22-01-13",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 389.244140625,
+          "min": 197.0,
+          "std": 75.66311645861691
+        },
+        "episode_return": {
+          "max": 17.806821413512807,
+          "mean": 14.618546152211639,
+          "min": 4.225323690261575,
+          "std": 3.201000290814913
+        },
+        "guidance_reward": {
+          "max": -0.0018899999568020576,
+          "mean": -0.003726178297859928,
+          "min": -0.005075555428447842,
+          "std": 0.0007266415498546544
+        },
+        "progress_reward": {
+          "max": 17.810530960559845,
+          "mean": 14.622271971486043,
+          "min": 4.230374723672867,
+          "std": 3.2006264596881744
+        },
+        "success_count": 451,
+        "success_rate_percent": 88.0859375
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 9
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-22_22-20-32/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1700000,
+        1700049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-22_22-20-32",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 383.11328125,
+          "min": 192.0,
+          "std": 85.13910297189182
+        },
+        "episode_return": {
+          "max": 17.715861314140056,
+          "mean": 14.584073504356095,
+          "min": 2.6316799056803575,
+          "std": 3.3341423234022955
+        },
+        "guidance_reward": {
+          "max": -0.0018166666245633678,
+          "mean": -0.0037351474784952376,
+          "min": -0.0050799998725779005,
+          "std": 0.0008317491728469875
+        },
+        "progress_reward": {
+          "max": 17.719587415456772,
+          "mean": 14.587808266747743,
+          "min": 2.6367465555667877,
+          "std": 3.3336981238150125
+        },
+        "success_count": 440,
+        "success_rate_percent": 85.9375
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 9
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-23_10-57-34/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1700000,
+        1700049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-23_10-57-34",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 389.0234375,
+          "min": 193.0,
+          "std": 81.90292604317378
+        },
+        "episode_return": {
+          "max": 17.684227034595096,
+          "mean": 14.446645056957248,
+          "min": 4.012502928810136,
+          "std": 3.3318976084277034
+        },
+        "guidance_reward": {
+          "max": -0.0018133332919205714,
+          "mean": -0.003720347134984925,
+          "min": -0.005075555428447842,
+          "std": 0.0007940789809599546
+        },
+        "progress_reward": {
+          "max": 17.688481032848358,
+          "mean": 14.450365070311818,
+          "min": 4.017507344484329,
+          "std": 3.3314865530211137
+        },
+        "success_count": 442,
+        "success_rate_percent": 86.328125
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 9
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-23_11-23-43/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1700000,
+        1700049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-23_11-23-43",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 333.453125,
+          "min": 178.0,
+          "std": 79.89112311599065
+        },
+        "episode_return": {
+          "max": 17.7793827765272,
+          "mean": 15.205469810805429,
+          "min": 4.739101605657197,
+          "std": 2.1886318279135994
+        },
+        "guidance_reward": {
+          "max": -0.0017288888466282515,
+          "mean": -0.0031961327371043957,
+          "min": -0.005064444318122696,
+          "std": 0.0007756463164267471
+        },
+        "progress_reward": {
+          "max": 17.783633440732956,
+          "mean": 15.208665526239201,
+          "min": 4.744045972824097,
+          "std": 2.1883528102338956
+        },
+        "success_count": 485,
+        "success_rate_percent": 94.7265625
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 9
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-24_00-27-58/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1700000,
+        1700049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-24_00-27-58",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 359.19921875,
+          "min": 149.0,
+          "std": 85.62923894260446
+        },
+        "episode_return": {
+          "max": 17.90007887575848,
+          "mean": 15.055646422249318,
+          "min": 4.514674082311103,
+          "std": 2.803071084313678
+        },
+        "guidance_reward": {
+          "max": -0.0014344444098242093,
+          "mean": -0.0034744508713937527,
+          "min": -0.0050911109829030465,
+          "std": 0.0008399911365713548
+        },
+        "progress_reward": {
+          "max": 17.903933942317963,
+          "mean": 15.05912043718854,
+          "min": 4.519665211439133,
+          "std": 2.8026825343858373
+        },
+        "success_count": 463,
+        "success_rate_percent": 90.4296875
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 9
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-24_00-28-06/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1700000,
+        1700049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-24_00-28-06",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 325.587890625,
+          "min": 163.0,
+          "std": 77.25086019092628
+        },
+        "episode_return": {
+          "max": 17.76276117020825,
+          "mean": 15.657894698861384,
+          "min": 6.374767982655612,
+          "std": 1.609056967437525
+        },
+        "guidance_reward": {
+          "max": -0.0015944444048727746,
+          "mean": -0.0031450020947605406,
+          "min": -0.0050577776519276085,
+          "std": 0.000751975424857405
+        },
+        "progress_reward": {
+          "max": 17.76724511384964,
+          "mean": 15.661039208353031,
+          "min": 6.379803448915482,
+          "std": 1.608945294820793
+        },
+        "success_count": 499,
+        "success_rate_percent": 97.4609375
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 9
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-28_20-11-25/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1700000,
+        1700049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-28_20-11-25",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 375.748046875,
+          "min": 191.0,
+          "std": 82.78516645660503
+        },
+        "episode_return": {
+          "max": 17.733005787129514,
+          "mean": 14.930926420377935,
+          "min": 4.978150046870724,
+          "std": 2.7244550532995744
+        },
+        "guidance_reward": {
+          "max": -0.0018411110668239417,
+          "mean": -0.003684387930146915,
+          "min": -0.005086666538772988,
+          "std": 0.0008162618413768281
+        },
+        "progress_reward": {
+          "max": 17.736518561840057,
+          "mean": 14.934610353026073,
+          "min": 4.9831856191158295,
+          "std": 2.7241411526611574
+        },
+        "success_count": 466,
+        "success_rate_percent": 91.015625
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 9
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-28_20-14-08/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1700000,
+        1700049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-28_20-14-08",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 348.615234375,
+          "min": 181.0,
+          "std": 81.05993636525271
+        },
+        "episode_return": {
+          "max": 17.63804274953509,
+          "mean": 15.499662991740463,
+          "min": 4.525731423549587,
+          "std": 2.1321165628394345
+        },
+        "guidance_reward": {
+          "max": -0.0016966666366897698,
+          "mean": -0.0033451605111416427,
+          "min": -0.005093333204968076,
+          "std": 0.0007958969341848521
+        },
+        "progress_reward": {
+          "max": 17.641893327236176,
+          "mean": 15.503007732273545,
+          "min": 4.530658066272736,
+          "std": 2.1319345507367298
+        },
+        "success_count": 488,
+        "success_rate_percent": 95.3125
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 9
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-29_09-30-31/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1700000,
+        1700049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-29_09-30-31",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 358.7265625,
+          "min": 179.0,
+          "std": 82.91182391211518
+        },
+        "episode_return": {
+          "max": 17.6843752424611,
+          "mean": 15.090231608751239,
+          "min": 3.734950704885705,
+          "std": 2.3281927430081883
+        },
+        "guidance_reward": {
+          "max": -0.0017166666257253382,
+          "mean": -0.0034953948801872414,
+          "min": -0.0050799998725779005,
+          "std": 0.0008197194269560697
+        },
+        "progress_reward": {
+          "max": 17.688605904579163,
+          "mean": 15.093726547667757,
+          "min": 3.7398406267166138,
+          "std": 2.327942823742681
+        },
+        "success_count": 482,
+        "success_rate_percent": 94.140625
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 9
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-22_22-01-13/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1800000,
+        1800049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-22_22-01-13",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 411.89453125,
+          "min": 232.0,
+          "std": 75.9940672114789
+        },
+        "episode_return": {
+          "max": 17.422623296661186,
+          "mean": 13.862206370595615,
+          "min": 4.141298124417517,
+          "std": 3.755110876920339
+        },
+        "guidance_reward": {
+          "max": -0.002070999968054821,
+          "mean": -0.003933628820378177,
+          "min": -0.005075999873952242,
+          "std": 0.0007333791637211634
+        },
+        "progress_reward": {
+          "max": 17.42698183655739,
+          "mean": 13.866139621532056,
+          "min": 4.146162122488022,
+          "std": 3.7546882143233633
+        },
+        "success_count": 417,
+        "success_rate_percent": 81.4453125
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 10
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-22_22-20-32/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1800000,
+        1800049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-22_22-20-32",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 414.49609375,
+          "min": 230.0,
+          "std": 79.41089237939094
+        },
+        "episode_return": {
+          "max": 17.571157784575917,
+          "mean": 13.789697856201448,
+          "min": 4.254526445317424,
+          "std": 3.9264496775035043
+        },
+        "guidance_reward": {
+          "max": -0.00217999995311402,
+          "mean": -0.0040327342808388345,
+          "min": -0.005079999873487395,
+          "std": 0.0007768600753634763
+        },
+        "progress_reward": {
+          "max": 17.576041221618652,
+          "mean": 13.793730203993618,
+          "min": 4.259484350681305,
+          "std": 3.92599386088699
+        },
+        "success_count": 402,
+        "success_rate_percent": 78.515625
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 10
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-23_10-57-34/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1800000,
+        1800049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-23_10-57-34",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 414.2890625,
+          "min": 225.0,
+          "std": 76.74810689275074
+        },
+        "episode_return": {
+          "max": 17.598693578056555,
+          "mean": 13.764993280569751,
+          "min": 3.151367228001618,
+          "std": 3.823024962869671
+        },
+        "guidance_reward": {
+          "max": -0.0021479999495568336,
+          "mean": -0.0039548651485064035,
+          "min": -0.005091999871410735,
+          "std": 0.000748483114721409
+        },
+        "progress_reward": {
+          "max": 17.603587090969086,
+          "mean": 13.768947776639834,
+          "min": 3.156288266181946,
+          "std": 3.8225879518105694
+        },
+        "success_count": 409,
+        "success_rate_percent": 79.8828125
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 10
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-23_11-23-43/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1800000,
+        1800049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-23_11-23-43",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 355.08984375,
+          "min": 199.0,
+          "std": 77.43068809813448
+        },
+        "episode_return": {
+          "max": 17.528327280062513,
+          "mean": 15.125851797267437,
+          "min": 5.003349112306751,
+          "std": 2.1740549146185506
+        },
+        "guidance_reward": {
+          "max": -0.0018679999629966915,
+          "mean": -0.003395076097459704,
+          "min": -0.0050979998713955865,
+          "std": 0.0007499960297658611
+        },
+        "progress_reward": {
+          "max": 17.532154828310013,
+          "mean": 15.129246405442245,
+          "min": 5.0082240998744965,
+          "std": 2.1738212988959473
+        },
+        "success_count": 486,
+        "success_rate_percent": 94.921875
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 10
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-24_00-27-58/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1800000,
+        1800049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-24_00-27-58",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 387.615234375,
+          "min": 202.0,
+          "std": 81.89903274635677
+        },
+        "episode_return": {
+          "max": 17.744167824683245,
+          "mean": 14.487615922910312,
+          "min": 2.4911263865542423,
+          "std": 3.325175108042935
+        },
+        "guidance_reward": {
+          "max": -0.0019409999540584977,
+          "mean": -0.003742771398914657,
+          "min": -0.005079999873487395,
+          "std": 0.0008024565367533587
+        },
+        "progress_reward": {
+          "max": 17.748893409967422,
+          "mean": 14.491358265280724,
+          "min": 2.496062397956848,
+          "std": 3.3247398394739247
+        },
+        "success_count": 438,
+        "success_rate_percent": 85.546875
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 10
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-24_00-28-06/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1800000,
+        1800049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-24_00-28-06",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 343.63671875,
+          "min": 171.0,
+          "std": 74.04673394541719
+        },
+        "episode_return": {
+          "max": 17.63390003177119,
+          "mean": 15.522926155327532,
+          "min": 3.3771275258222886,
+          "std": 1.6787399562889227
+        },
+        "guidance_reward": {
+          "max": -0.0016559999612582033,
+          "mean": -0.003315103440220568,
+          "min": -0.005063999875346781,
+          "std": 0.0007218014073728501
+        },
+        "progress_reward": {
+          "max": 17.638014495372772,
+          "mean": 15.526240753591992,
+          "min": 3.382099449634552,
+          "std": 1.6786130373337715
+        },
+        "success_count": 499,
+        "success_rate_percent": 97.4609375
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 10
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-28_20-11-25/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1800000,
+        1800049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-28_20-11-25",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 403.341796875,
+          "min": 206.0,
+          "std": 76.46837563183385
+        },
+        "episode_return": {
+          "max": 17.70810036299008,
+          "mean": 14.277273690056292,
+          "min": 4.5051221575304226,
+          "std": 3.3438136851579325
+        },
+        "guidance_reward": {
+          "max": -0.0020259999500922277,
+          "mean": -0.003945597562314607,
+          "min": -0.005091999872092856,
+          "std": 0.0007566492421009507
+        },
+        "progress_reward": {
+          "max": 17.712841898202896,
+          "mean": 14.281218859832734,
+          "min": 4.510184168815613,
+          "std": 3.343437844429108
+        },
+        "success_count": 437,
+        "success_rate_percent": 85.3515625
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 10
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-28_20-14-08/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1800000,
+        1800049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-28_20-14-08",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 379.404296875,
+          "min": 162.0,
+          "std": 81.52747464604718
+        },
+        "episode_return": {
+          "max": 17.824694933067804,
+          "mean": 14.979562240497815,
+          "min": 4.371422333766532,
+          "std": 2.771266514357571
+        },
+        "guidance_reward": {
+          "max": -0.0015649999631932587,
+          "mean": -0.003638824137545349,
+          "min": -0.005076999873381283,
+          "std": 0.0007928418490292367
+        },
+        "progress_reward": {
+          "max": 17.828947365283966,
+          "mean": 14.983200619812123,
+          "min": 4.3764422833919525,
+          "std": 2.7709706809099273
+        },
+        "success_count": 465,
+        "success_rate_percent": 90.8203125
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 10
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-29_09-30-31/models/model_100000768_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        1800000,
+        1800049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-29_09-30-31",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 383.419921875,
+          "min": 203.0,
+          "std": 77.5369961695312
+        },
+        "episode_return": {
+          "max": 17.330153742350376,
+          "mean": 14.52542755070466,
+          "min": 3.5164405844880093,
+          "std": 2.908191028598389
+        },
+        "guidance_reward": {
+          "max": -0.0019819999524770537,
+          "mean": -0.003722167881906824,
+          "min": -0.005075999873952242,
+          "std": 0.0007631678724740922
+        },
+        "progress_reward": {
+          "max": 17.334174245595932,
+          "mean": 14.529149274283554,
+          "min": 3.52144455909729,
+          "std": 2.907835432799948
+        },
+        "success_count": 460,
+        "success_rate_percent": 89.84375
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 10
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-29_16-58-47/models/best/2026-07-29_16-58-50/model_best.pt",
+      "pool_seed_range_inclusive": [
+        1000000,
+        1000049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-29_16-58-47",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 339.115234375,
+          "min": 107.0,
+          "std": 113.52319594652812
+        },
+        "episode_return": {
+          "max": 18.169620172724535,
+          "mean": 14.179094683335045,
+          "min": -0.3799776437335822,
+          "std": 4.642768186304786
+        },
+        "guidance_reward": {
+          "max": -0.001049999973474769,
+          "mean": -0.0033295116346394593,
+          "min": -0.005099999871163163,
+          "std": 0.001127089678202844
+        },
+        "progress_reward": {
+          "max": 18.173979610204697,
+          "mean": 14.182423711405136,
+          "min": -0.3748776614665985,
+          "std": 4.642136721074356
+        },
+        "success_count": 432,
+        "success_rate_percent": 84.375
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 2
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-29_16-58-47/models/best/2026-07-29_16-58-50/model_best.pt",
+      "pool_seed_range_inclusive": [
+        1100000,
+        1100049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-29_16-58-47",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 327.59765625,
+          "min": 144.0,
+          "std": 99.99965934695396
+        },
+        "episode_return": {
+          "max": 17.966680459958297,
+          "mean": 15.27741363231875,
+          "min": 0.17574435909773456,
+          "std": 2.87022921442947
+        },
+        "guidance_reward": {
+          "max": -0.0013899999648856465,
+          "mean": -0.003196412680293914,
+          "min": -0.005099999871163163,
+          "std": 0.000993351791031739
+        },
+        "progress_reward": {
+          "max": 17.97112986445427,
+          "mean": 15.280609539884608,
+          "min": 0.18047094345092773,
+          "std": 2.869893139692665
+        },
+        "success_count": 476,
+        "success_rate_percent": 92.96875
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 3
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-29_16-58-47/models/best/2026-07-29_16-58-50/model_best.pt",
+      "pool_seed_range_inclusive": [
+        1200000,
+        1200049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-29_16-58-47",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 338.037109375,
+          "min": 146.0,
+          "std": 94.50147046352923
+        },
+        "episode_return": {
+          "max": 17.835902590108162,
+          "mean": 15.280142353941162,
+          "min": -0.2495790605971706,
+          "std": 2.7496389523866385
+        },
+        "guidance_reward": {
+          "max": -0.001384999965011957,
+          "mean": -0.0032941210105335017,
+          "min": -0.005094999871289474,
+          "std": 0.0009344991105926353
+        },
+        "progress_reward": {
+          "max": 17.84074953198433,
+          "mean": 15.283435989258578,
+          "min": -0.2445540428161621,
+          "std": 2.7493426311396
+        },
+        "success_count": 478,
+        "success_rate_percent": 93.359375
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 4
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-29_16-58-47/models/best/2026-07-29_16-58-50/model_best.pt",
+      "pool_seed_range_inclusive": [
+        1300000,
+        1300049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-29_16-58-47",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 342.412109375,
+          "min": 161.0,
+          "std": 86.74644315612045
+        },
+        "episode_return": {
+          "max": 17.85165630145275,
+          "mean": 15.49171332651743,
+          "min": 3.031183361166768,
+          "std": 2.2342594406735934
+        },
+        "guidance_reward": {
+          "max": -0.0014839999707874085,
+          "mean": -0.003317558516832353,
+          "min": -0.005099999871163163,
+          "std": 0.0008587229498780438
+        },
+        "progress_reward": {
+          "max": 17.856579810380936,
+          "mean": 15.495030403370038,
+          "min": 3.0361993610858917,
+          "std": 2.2340673231961725
+        },
+        "success_count": 487,
+        "success_rate_percent": 95.1171875
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 5
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-29_16-58-47/models/best/2026-07-29_16-58-50/model_best.pt",
+      "pool_seed_range_inclusive": [
+        1400000,
+        1400049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-29_16-58-47",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 354.642578125,
+          "min": 163.0,
+          "std": 85.75035978191737
+        },
+        "episode_return": {
+          "max": 17.78523046506234,
+          "mean": 15.258750676511642,
+          "min": 1.852140460327064,
+          "std": 2.5819229143542914
+        },
+        "guidance_reward": {
+          "max": -0.0015549999629911326,
+          "mean": -0.0034228156727473813,
+          "min": -0.005094999871289474,
+          "std": 0.0008378122192776783
+        },
+        "progress_reward": {
+          "max": 17.78996992111206,
+          "mean": 15.26217307744082,
+          "min": 1.8571837544441223,
+          "std": 2.581647711934482
+        },
+        "success_count": 476,
+        "success_rate_percent": 92.96875
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 6
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-29_16-58-47/models/best/2026-07-29_16-58-50/model_best.pt",
+      "pool_seed_range_inclusive": [
+        1500000,
+        1500049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-29_16-58-47",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 369.279296875,
+          "min": 185.0,
+          "std": 82.74637761787893
+        },
+        "episode_return": {
+          "max": 17.61969430897443,
+          "mean": 14.95312122346031,
+          "min": 1.041044968929782,
+          "std": 2.82902182970176
+        },
+        "guidance_reward": {
+          "max": -0.0018128570982298697,
+          "mean": -0.003549455833373516,
+          "min": -0.005074285587852501,
+          "std": 0.0008086992558276106
+        },
+        "progress_reward": {
+          "max": 17.623813778162003,
+          "mean": 14.956670229963493,
+          "min": 1.046046406030655,
+          "std": 2.828699306102461
+        },
+        "success_count": 464,
+        "success_rate_percent": 90.625
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 7
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-29_16-58-47/models/best/2026-07-29_16-58-50/model_best.pt",
+      "pool_seed_range_inclusive": [
+        1600000,
+        1600049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-29_16-58-47",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 385.548828125,
+          "min": 210.0,
+          "std": 83.34218314163728
+        },
+        "episode_return": {
+          "max": 17.529925554030342,
+          "mean": 14.562660781623721,
+          "min": 0.9175061847199686,
+          "std": 3.2434981027923557
+        },
+        "guidance_reward": {
+          "max": -0.0020337499486231536,
+          "mean": -0.003688464262290303,
+          "min": -0.00508749987147894,
+          "std": 0.0008108426406518072
+        },
+        "progress_reward": {
+          "max": 17.534293830394745,
+          "mean": 14.566348957421724,
+          "min": 0.9224287569522858,
+          "std": 3.243102020343738
+        },
+        "success_count": 445,
+        "success_rate_percent": 86.9140625
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 8
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-29_16-58-47/models/best/2026-07-29_16-58-50/model_best.pt",
+      "pool_seed_range_inclusive": [
+        1700000,
+        1700049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-29_16-58-47",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 388.16796875,
+          "min": 183.0,
+          "std": 80.13978942447393
+        },
+        "episode_return": {
+          "max": 17.6721189894879,
+          "mean": 14.575405819557844,
+          "min": 4.175878182741144,
+          "std": 3.141870804475668
+        },
+        "guidance_reward": {
+          "max": -0.0017699999571050284,
+          "mean": -0.003703810677344821,
+          "min": -0.005071110984317784,
+          "std": 0.0007751020341215097
+        },
+        "progress_reward": {
+          "max": 17.675959646701813,
+          "mean": 14.579109306621831,
+          "min": 4.1809059381484985,
+          "std": 3.141495205336702
+        },
+        "success_count": 447,
+        "success_rate_percent": 87.3046875
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 9
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/mjw_find_opening_tmasac/slstm_two_small_actor_state_critic/2026-07-29_16-58-47/models/best/2026-07-29_16-58-50/model_best.pt",
+      "pool_seed_range_inclusive": [
+        1800000,
+        1800049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-29_16-58-47",
+      "summary": {
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 404.49609375,
+          "min": 211.0,
+          "std": 76.5293294495072
+        },
+        "episode_return": {
+          "max": 17.681371339331236,
+          "mean": 14.13639323452654,
+          "min": 0.2516738997219363,
+          "std": 3.531182698763664
+        },
+        "guidance_reward": {
+          "max": -0.001960999962875576,
+          "mean": -0.0038336698399477065,
+          "min": -0.00502999987838848,
+          "std": 0.0007335142839734945
+        },
+        "progress_reward": {
+          "max": 17.685576856136322,
+          "mean": 14.14022653439315,
+          "min": 0.25655198097229004,
+          "std": 3.5308002972827315
+        },
+        "success_count": 430,
+        "success_rate_percent": 83.984375
+      },
+      "target": "find_opening_slstm_tmasac",
+      "unit_count": 10
+    }
+  ],
+  "schema_version": 1
+}

@@ -1,0 +1,5 @@
+CLIMB_GOAL_XYZ_GLOBAL_OBS_LAYOUT = "climb_goal_xyz"
+VERTICAL_REACH_GOAL_XYZ_GLOBAL_OBS_LAYOUT = "vertical_reach_goal_xyz"
+MULTI_PAYLOAD_GOAL_GLOBAL_OBS_LAYOUT = "multi_payload_goal"
+PAYLOAD_GLOBAL_OBS_ADAPTER_NAME = "move_to_payload"
+DUAL_PAYLOAD_GLOBAL_OBS_ADAPTER_NAME = "move_to_dual_payload"

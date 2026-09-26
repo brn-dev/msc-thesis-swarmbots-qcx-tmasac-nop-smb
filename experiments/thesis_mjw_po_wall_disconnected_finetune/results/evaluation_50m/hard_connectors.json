@@ -1,0 +1,767 @@
+{
+  "completed_at": "2026-08-24T20:59:22.235158+00:00",
+  "config": {
+    "deterministic": true,
+    "disable_connector_actions": false,
+    "disable_policy_connector_actions": false,
+    "episode_length": 512,
+    "episodes": 512,
+    "max_parallel_envs": 512,
+    "pool_seed_base": 3000000,
+    "pool_size": 50,
+    "rollout_seed": 2000000,
+    "scenario_kwargs_overrides": {
+      "wall_height": 0.4
+    },
+    "unconnected_prob": 1.0,
+    "unit_counts": [
+      4,
+      5
+    ]
+  },
+  "created_at": "2026-08-24T20:55:22.063111+00:00",
+  "resolved_num_envs": 512,
+  "results": [
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/thesis_mjw_po_wall_disconnected_finetune_hard_wall_50m/tmasac_baseline/2026-07-17_12-49-19/models/model_150001664_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        3200000,
+        3200049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_12-49-19",
+      "summary": {
+        "connection_usage_by_outcome": {
+          "successful_episodes": {
+            "episode_count": 484,
+            "episodes_with_never_connected_unit_count": 32,
+            "episodes_with_never_connected_unit_rate_percent": 6.6115702479338845,
+            "episodes_without_any_successful_connection_count": 0,
+            "episodes_without_any_successful_connection_rate_percent": 0.0
+          },
+          "unsuccessful_episodes": {
+            "episode_count": 28,
+            "episodes_with_never_connected_unit_count": 12,
+            "episodes_with_never_connected_unit_rate_percent": 42.857142857142854,
+            "episodes_without_any_successful_connection_count": 0,
+            "episodes_without_any_successful_connection_rate_percent": 0.0
+          }
+        },
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 267.66015625,
+          "min": 111.0,
+          "std": 95.55275934647615
+        },
+        "episode_return": {
+          "max": 19.832962952088565,
+          "mean": 17.21398559417787,
+          "min": -0.5270993848098442,
+          "std": 3.3446688156970636
+        },
+        "guidance_reward": {
+          "max": -0.010500000091269612,
+          "mean": -0.17456396636112004,
+          "min": -0.8070000070147216,
+          "std": 0.1174893785967184
+        },
+        "progress_reward": {
+          "max": 19.88846294954419,
+          "mean": 17.388549583784716,
+          "min": 0.27990060261799954,
+          "std": 3.3029411892234983
+        },
+        "success_count": 484,
+        "success_rate_percent": 94.53125,
+        "successful_connections_per_unit": {
+          "max": 28.0,
+          "mean": 1.53515625,
+          "min": 0.0,
+          "std": 1.6225144439716537
+        },
+        "successful_connections_per_unit_successful_episodes": {
+          "max": 28.0,
+          "mean": 1.503099173553719,
+          "min": 0.0,
+          "std": 1.5892818687882373
+        },
+        "successful_connections_per_unit_unsuccessful_episodes": {
+          "max": 14.0,
+          "mean": 2.0892857142857144,
+          "min": 0.0,
+          "std": 2.037827868965116
+        }
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 4
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/thesis_mjw_po_wall_disconnected_finetune_hard_wall_50m/tmasac_baseline/2026-07-17_12-49-20/models/model_150001664_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        3200000,
+        3200049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_12-49-20",
+      "summary": {
+        "connection_usage_by_outcome": {
+          "successful_episodes": {
+            "episode_count": 480,
+            "episodes_with_never_connected_unit_count": 31,
+            "episodes_with_never_connected_unit_rate_percent": 6.458333333333333,
+            "episodes_without_any_successful_connection_count": 0,
+            "episodes_without_any_successful_connection_rate_percent": 0.0
+          },
+          "unsuccessful_episodes": {
+            "episode_count": 32,
+            "episodes_with_never_connected_unit_count": 28,
+            "episodes_with_never_connected_unit_rate_percent": 87.5,
+            "episodes_without_any_successful_connection_count": 0,
+            "episodes_without_any_successful_connection_rate_percent": 0.0
+          }
+        },
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 219.646484375,
+          "min": 102.0,
+          "std": 92.46788941885654
+        },
+        "episode_return": {
+          "max": 19.802228576969355,
+          "mean": 17.176678221338193,
+          "min": 0.06770506073371507,
+          "std": 3.316161722803028
+        },
+        "guidance_reward": {
+          "max": -0.010500000091269612,
+          "mean": -0.18906738445593874,
+          "min": -0.9150000079534948,
+          "std": 0.14976993913289974
+        },
+        "progress_reward": {
+          "max": 19.90572857740335,
+          "mean": 17.36574562471945,
+          "min": 0.14495508006075397,
+          "std": 3.210727882068112
+        },
+        "success_count": 480,
+        "success_rate_percent": 93.75,
+        "successful_connections_per_unit": {
+          "max": 7.0,
+          "mean": 1.2001953125,
+          "min": 0.0,
+          "std": 0.6687499708177321
+        },
+        "successful_connections_per_unit_successful_episodes": {
+          "max": 7.0,
+          "mean": 1.196875,
+          "min": 0.0,
+          "std": 0.6273212093067535
+        },
+        "successful_connections_per_unit_unsuccessful_episodes": {
+          "max": 6.0,
+          "mean": 1.25,
+          "min": 0.0,
+          "std": 1.1180339917841196
+        }
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 4
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/thesis_mjw_po_wall_disconnected_finetune_hard_wall_50m/tmasac_baseline/2026-07-17_23-52-11/models/model_150001664_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        3200000,
+        3200049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_23-52-11",
+      "summary": {
+        "connection_usage_by_outcome": {
+          "successful_episodes": {
+            "episode_count": 367,
+            "episodes_with_never_connected_unit_count": 23,
+            "episodes_with_never_connected_unit_rate_percent": 6.267029972752043,
+            "episodes_without_any_successful_connection_count": 0,
+            "episodes_without_any_successful_connection_rate_percent": 0.0
+          },
+          "unsuccessful_episodes": {
+            "episode_count": 145,
+            "episodes_with_never_connected_unit_count": 28,
+            "episodes_with_never_connected_unit_rate_percent": 19.310344827586206,
+            "episodes_without_any_successful_connection_count": 0,
+            "episodes_without_any_successful_connection_rate_percent": 0.0
+          }
+        },
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 376.849609375,
+          "min": 158.0,
+          "std": 110.79775899486826
+        },
+        "episode_return": {
+          "max": 19.693747938144952,
+          "mean": 14.293368178788114,
+          "min": -0.7719044744735584,
+          "std": 6.042594320016363
+        },
+        "guidance_reward": {
+          "max": -0.01950000016950071,
+          "mean": -0.2635283226031788,
+          "min": -0.9495000082533807,
+          "std": 0.1650816845151265
+        },
+        "progress_reward": {
+          "max": 19.86037409491837,
+          "mean": 14.556896531849276,
+          "min": -0.6991544879274443,
+          "std": 5.997544811851319
+        },
+        "success_count": 367,
+        "success_rate_percent": 71.6796875,
+        "successful_connections_per_unit": {
+          "max": 33.0,
+          "mean": 1.474609375,
+          "min": 0.0,
+          "std": 1.7363698681476645
+        },
+        "successful_connections_per_unit_successful_episodes": {
+          "max": 27.0,
+          "mean": 1.3079019073569482,
+          "min": 0.0,
+          "std": 1.3202541722111703
+        },
+        "successful_connections_per_unit_unsuccessful_episodes": {
+          "max": 33.0,
+          "mean": 1.896551724137931,
+          "min": 0.0,
+          "std": 2.4465997174234433
+        }
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 4
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/thesis_mjw_po_wall_disconnected_finetune_hard_wall_50m/tmasac_baseline/2026-07-17_23-52-34/models/model_150001664_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        3200000,
+        3200049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_23-52-34",
+      "summary": {
+        "connection_usage_by_outcome": {
+          "successful_episodes": {
+            "episode_count": 390,
+            "episodes_with_never_connected_unit_count": 24,
+            "episodes_with_never_connected_unit_rate_percent": 6.153846153846154,
+            "episodes_without_any_successful_connection_count": 0,
+            "episodes_without_any_successful_connection_rate_percent": 0.0
+          },
+          "unsuccessful_episodes": {
+            "episode_count": 122,
+            "episodes_with_never_connected_unit_count": 35,
+            "episodes_with_never_connected_unit_rate_percent": 28.688524590163933,
+            "episodes_without_any_successful_connection_count": 0,
+            "episodes_without_any_successful_connection_rate_percent": 0.0
+          }
+        },
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 353.08984375,
+          "min": 131.0,
+          "std": 112.1081880789739
+        },
+        "episode_return": {
+          "max": 19.76229558396153,
+          "mean": 14.52773255677667,
+          "min": -1.8232495876727626,
+          "std": 6.263144214682848
+        },
+        "guidance_reward": {
+          "max": -0.021000000182539225,
+          "mean": -0.25055273655289056,
+          "min": -1.3815000120084733,
+          "std": 0.17431673027673986
+        },
+        "progress_reward": {
+          "max": 19.87506790086627,
+          "mean": 14.778285319986225,
+          "min": -1.695749608334154,
+          "std": 6.204532564100944
+        },
+        "success_count": 390,
+        "success_rate_percent": 76.171875,
+        "successful_connections_per_unit": {
+          "max": 17.0,
+          "mean": 1.5185546875,
+          "min": 0.0,
+          "std": 1.2560974200312696
+        },
+        "successful_connections_per_unit_successful_episodes": {
+          "max": 17.0,
+          "mean": 1.4282051282051282,
+          "min": 0.0,
+          "std": 1.2408534544631638
+        },
+        "successful_connections_per_unit_unsuccessful_episodes": {
+          "max": 11.0,
+          "mean": 1.8073770491803278,
+          "min": 0.0,
+          "std": 1.2609304448969951
+        }
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 4
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/thesis_mjw_po_wall_disconnected_finetune_hard_wall_50m/tmasac_baseline/2026-08-15_11-45-06/models/model_150001664_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        3200000,
+        3200049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-08-15_11-45-06",
+      "summary": {
+        "connection_usage_by_outcome": {
+          "successful_episodes": {
+            "episode_count": 492,
+            "episodes_with_never_connected_unit_count": 30,
+            "episodes_with_never_connected_unit_rate_percent": 6.097560975609756,
+            "episodes_without_any_successful_connection_count": 0,
+            "episodes_without_any_successful_connection_rate_percent": 0.0
+          },
+          "unsuccessful_episodes": {
+            "episode_count": 20,
+            "episodes_with_never_connected_unit_count": 8,
+            "episodes_with_never_connected_unit_rate_percent": 40.0,
+            "episodes_without_any_successful_connection_count": 0,
+            "episodes_without_any_successful_connection_rate_percent": 0.0
+          }
+        },
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 237.029296875,
+          "min": 105.0,
+          "std": 86.22590877931131
+        },
+        "episode_return": {
+          "max": 19.793482752051204,
+          "mean": 17.443975650588754,
+          "min": 0.45495616330299526,
+          "std": 2.7913382546881693
+        },
+        "guidance_reward": {
+          "max": -0.021000000182539225,
+          "mean": -0.17401757963762066,
+          "min": -0.9645000083837658,
+          "std": 0.1180537728862131
+        },
+        "progress_reward": {
+          "max": 19.857982745859772,
+          "mean": 17.61799324685025,
+          "min": 0.86970615608152,
+          "std": 2.7446957020394778
+        },
+        "success_count": 492,
+        "success_rate_percent": 96.09375,
+        "successful_connections_per_unit": {
+          "max": 10.0,
+          "mean": 1.359375,
+          "min": 0.0,
+          "std": 0.9746543853821147
+        },
+        "successful_connections_per_unit_successful_episodes": {
+          "max": 10.0,
+          "mean": 1.3434959349593496,
+          "min": 0.0,
+          "std": 0.9552477930986785
+        },
+        "successful_connections_per_unit_unsuccessful_episodes": {
+          "max": 6.0,
+          "mean": 1.75,
+          "min": 0.0,
+          "std": 1.3086252361793644
+        }
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 4
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/thesis_mjw_po_wall_disconnected_finetune_hard_wall_50m/tmasac_baseline/2026-07-17_12-49-19/models/model_150001664_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        3300000,
+        3300049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_12-49-19",
+      "summary": {
+        "connection_usage_by_outcome": {
+          "successful_episodes": {
+            "episode_count": 426,
+            "episodes_with_never_connected_unit_count": 38,
+            "episodes_with_never_connected_unit_rate_percent": 8.92018779342723,
+            "episodes_without_any_successful_connection_count": 0,
+            "episodes_without_any_successful_connection_rate_percent": 0.0
+          },
+          "unsuccessful_episodes": {
+            "episode_count": 86,
+            "episodes_with_never_connected_unit_count": 33,
+            "episodes_with_never_connected_unit_rate_percent": 38.372093023255815,
+            "episodes_without_any_successful_connection_count": 0,
+            "episodes_without_any_successful_connection_rate_percent": 0.0
+          }
+        },
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 318.3984375,
+          "min": 122.0,
+          "std": 112.87756709731387
+        },
+        "episode_return": {
+          "max": 19.654531538835727,
+          "mean": 16.04375914423596,
+          "min": 0.07093478152819443,
+          "std": 4.553179353159125
+        },
+        "guidance_reward": {
+          "max": -0.02220000105444342,
+          "mean": -0.2342203205680562,
+          "min": -1.1490000257035717,
+          "std": 0.13871518908228003
+        },
+        "progress_reward": {
+          "max": 19.97250365633954,
+          "mean": 16.277979410396107,
+          "min": 0.34333482732472476,
+          "std": 4.498872525547605
+        },
+        "success_count": 426,
+        "success_rate_percent": 83.203125,
+        "successful_connections_per_unit": {
+          "max": 25.0,
+          "mean": 1.7578125292202458,
+          "min": 0.0,
+          "std": 1.476620361020768
+        },
+        "successful_connections_per_unit_successful_episodes": {
+          "max": 25.0,
+          "mean": 1.7558685730040913,
+          "min": 0.0,
+          "std": 1.4862517967981312
+        },
+        "successful_connections_per_unit_unsuccessful_episodes": {
+          "max": 10.0,
+          "mean": 1.767441893732825,
+          "min": 0.0,
+          "std": 1.427914553223211
+        }
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 5
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/thesis_mjw_po_wall_disconnected_finetune_hard_wall_50m/tmasac_baseline/2026-07-17_12-49-20/models/model_150001664_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        3300000,
+        3300049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_12-49-20",
+      "summary": {
+        "connection_usage_by_outcome": {
+          "successful_episodes": {
+            "episode_count": 455,
+            "episodes_with_never_connected_unit_count": 44,
+            "episodes_with_never_connected_unit_rate_percent": 9.67032967032967,
+            "episodes_without_any_successful_connection_count": 0,
+            "episodes_without_any_successful_connection_rate_percent": 0.0
+          },
+          "unsuccessful_episodes": {
+            "episode_count": 57,
+            "episodes_with_never_connected_unit_count": 33,
+            "episodes_with_never_connected_unit_rate_percent": 57.89473684210526,
+            "episodes_without_any_successful_connection_count": 0,
+            "episodes_without_any_successful_connection_rate_percent": 0.0
+          }
+        },
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 262.990234375,
+          "min": 97.0,
+          "std": 108.95547176029099
+        },
+        "episode_return": {
+          "max": 19.85917348851217,
+          "mean": 16.65092677374816,
+          "min": 0.44182091928087175,
+          "std": 3.861656425655566
+        },
+        "guidance_reward": {
+          "max": -0.04800000134855509,
+          "mean": -0.21969024169652585,
+          "min": -0.788400033256039,
+          "std": 0.10126405646270516
+        },
+        "progress_reward": {
+          "max": 20.017573201133928,
+          "mean": 16.87061692551279,
+          "min": 0.8090210089285392,
+          "std": 3.8189523307392776
+        },
+        "success_count": 455,
+        "success_rate_percent": 88.8671875,
+        "successful_connections_per_unit": {
+          "max": 10.0,
+          "mean": 1.4421875334810466,
+          "min": 0.0,
+          "std": 0.9386334219476595
+        },
+        "successful_connections_per_unit_successful_episodes": {
+          "max": 10.0,
+          "mean": 1.422417617237175,
+          "min": 0.0,
+          "std": 0.8763201481048912
+        },
+        "successful_connections_per_unit_unsuccessful_episodes": {
+          "max": 9.0,
+          "mean": 1.6000000227961624,
+          "min": 0.0,
+          "std": 1.3250620494267558
+        }
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 5
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/thesis_mjw_po_wall_disconnected_finetune_hard_wall_50m/tmasac_baseline/2026-07-17_23-52-11/models/model_150001664_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        3300000,
+        3300049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_23-52-11",
+      "summary": {
+        "connection_usage_by_outcome": {
+          "successful_episodes": {
+            "episode_count": 328,
+            "episodes_with_never_connected_unit_count": 36,
+            "episodes_with_never_connected_unit_rate_percent": 10.975609756097562,
+            "episodes_without_any_successful_connection_count": 0,
+            "episodes_without_any_successful_connection_rate_percent": 0.0
+          },
+          "unsuccessful_episodes": {
+            "episode_count": 184,
+            "episodes_with_never_connected_unit_count": 63,
+            "episodes_with_never_connected_unit_rate_percent": 34.23913043478261,
+            "episodes_without_any_successful_connection_count": 0,
+            "episodes_without_any_successful_connection_rate_percent": 0.0
+          }
+        },
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 401.46484375,
+          "min": 157.0,
+          "std": 104.26631099155703
+        },
+        "episode_return": {
+          "max": 19.733921522652963,
+          "mean": 13.40872879020823,
+          "min": -0.33681310852989554,
+          "std": 6.220745362776197
+        },
+        "guidance_reward": {
+          "max": -0.02280000108294189,
+          "mean": -0.3262839958147197,
+          "min": -0.9984000399708748,
+          "std": 0.1469850380916911
+        },
+        "progress_reward": {
+          "max": 19.93218127079308,
+          "mean": 13.735012733934006,
+          "min": -0.0858625018663588,
+          "std": 6.180065794072558
+        },
+        "success_count": 328,
+        "success_rate_percent": 64.0625,
+        "successful_connections_per_unit": {
+          "max": 39.0,
+          "mean": 1.5992187770316377,
+          "min": 0.0,
+          "std": 1.624615125976535
+        },
+        "successful_connections_per_unit_successful_episodes": {
+          "max": 22.0,
+          "mean": 1.5414634466898152,
+          "min": 0.0,
+          "std": 1.184550035982269
+        },
+        "successful_connections_per_unit_unsuccessful_episodes": {
+          "max": 39.0,
+          "mean": 1.7021739311192348,
+          "min": 0.0,
+          "std": 2.1969335151912217
+        }
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 5
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/thesis_mjw_po_wall_disconnected_finetune_hard_wall_50m/tmasac_baseline/2026-07-17_23-52-34/models/model_150001664_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        3300000,
+        3300049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-07-17_23-52-34",
+      "summary": {
+        "connection_usage_by_outcome": {
+          "successful_episodes": {
+            "episode_count": 337,
+            "episodes_with_never_connected_unit_count": 34,
+            "episodes_with_never_connected_unit_rate_percent": 10.089020771513352,
+            "episodes_without_any_successful_connection_count": 0,
+            "episodes_without_any_successful_connection_rate_percent": 0.0
+          },
+          "unsuccessful_episodes": {
+            "episode_count": 175,
+            "episodes_with_never_connected_unit_count": 51,
+            "episodes_with_never_connected_unit_rate_percent": 29.142857142857142,
+            "episodes_without_any_successful_connection_count": 0,
+            "episodes_without_any_successful_connection_rate_percent": 0.0
+          }
+        },
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 389.55859375,
+          "min": 136.0,
+          "std": 111.96792790470163
+        },
+        "episode_return": {
+          "max": 19.773016735522106,
+          "mean": 13.4239569072514,
+          "min": -0.8136100388073828,
+          "std": 6.517317107541807
+        },
+        "guidance_reward": {
+          "max": -0.041400001966394484,
+          "mean": -0.2902992290005386,
+          "min": -0.940800029784441,
+          "std": 0.13125786262127936
+        },
+        "progress_reward": {
+          "max": 19.998920169251505,
+          "mean": 13.714256082144054,
+          "min": -0.3912099764565937,
+          "std": 6.489371681043137
+        },
+        "success_count": 337,
+        "success_rate_percent": 65.8203125,
+        "successful_connections_per_unit": {
+          "max": 23.0,
+          "mean": 1.719531279988587,
+          "min": 0.0,
+          "std": 1.4867413162000127
+        },
+        "successful_connections_per_unit_successful_episodes": {
+          "max": 23.0,
+          "mean": 1.6035608629798324,
+          "min": 0.0,
+          "std": 1.4094169431548547
+        },
+        "successful_connections_per_unit_unsuccessful_episodes": {
+          "max": 15.0,
+          "mean": 1.9428571687425886,
+          "min": 0.0,
+          "std": 1.6018356731124148
+        }
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 5
+    },
+    {
+      "checkpoint": "/home/brn/git/swarm-bots/runs/thesis_mjw_po_wall_disconnected_finetune_hard_wall_50m/tmasac_baseline/2026-08-15_11-45-06/models/model_150001664_steps_final.pt",
+      "pool_seed_range_inclusive": [
+        3300000,
+        3300049
+      ],
+      "pool_size": 50,
+      "run_id": "2026-08-15_11-45-06",
+      "summary": {
+        "connection_usage_by_outcome": {
+          "successful_episodes": {
+            "episode_count": 451,
+            "episodes_with_never_connected_unit_count": 42,
+            "episodes_with_never_connected_unit_rate_percent": 9.312638580931264,
+            "episodes_without_any_successful_connection_count": 0,
+            "episodes_without_any_successful_connection_rate_percent": 0.0
+          },
+          "unsuccessful_episodes": {
+            "episode_count": 61,
+            "episodes_with_never_connected_unit_count": 36,
+            "episodes_with_never_connected_unit_rate_percent": 59.01639344262295,
+            "episodes_without_any_successful_connection_count": 0,
+            "episodes_without_any_successful_connection_rate_percent": 0.0
+          }
+        },
+        "episode_count": 512,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 282.447265625,
+          "min": 117.0,
+          "std": 106.44469823145582
+        },
+        "episode_return": {
+          "max": 19.867509235045873,
+          "mean": 16.605306255977958,
+          "min": 0.24460750169237144,
+          "std": 3.8664259206723375
+        },
+        "guidance_reward": {
+          "max": -0.04440000210888684,
+          "mean": -0.2148257886196916,
+          "min": -0.8100000281119719,
+          "std": 0.11063963813177889
+        },
+        "progress_reward": {
+          "max": 19.972508923208807,
+          "mean": 16.820131991844057,
+          "min": 0.32740752381505445,
+          "std": 3.8168442237685847
+        },
+        "success_count": 451,
+        "success_rate_percent": 88.0859375,
+        "successful_connections_per_unit": {
+          "max": 26.0,
+          "mean": 1.631250029313378,
+          "min": 0.0,
+          "std": 1.4601342936832753
+        },
+        "successful_connections_per_unit_successful_episodes": {
+          "max": 26.0,
+          "mean": 1.6470066823081801,
+          "min": 0.0,
+          "std": 1.4742456049278836
+        },
+        "successful_connections_per_unit_unsuccessful_episodes": {
+          "max": 12.0,
+          "mean": 1.5147541194665628,
+          "min": 0.0,
+          "std": 1.3455251706460767
+        }
+      },
+      "target": "po_wall_tmasac",
+      "unit_count": 5
+    }
+  ],
+  "schema_version": 5
+}

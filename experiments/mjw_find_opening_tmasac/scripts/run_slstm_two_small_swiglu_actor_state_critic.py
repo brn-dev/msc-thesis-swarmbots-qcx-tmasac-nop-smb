@@ -1,0 +1,28 @@
+from pathlib import Path
+
+from common import (
+    ACTOR_D_MODEL,
+    PARAMETER_MATCHED_SWIGLU_HIDDEN_DIM,
+    ActorStateCriticInputConfig,
+    run_experiment,
+)
+from swarmbots.learn.nn_components.feed_forward import SwiGLUConfig
+
+
+def main() -> None:
+    swiglu_config = SwiGLUConfig(hidden_dim=PARAMETER_MATCHED_SWIGLU_HIDDEN_DIM)
+    run_experiment(
+        variant_name="slstm_two_small_swiglu_actor_state_critic",
+        temporal_model_variant="slstm",
+        actor_state_critic_input_config=ActorStateCriticInputConfig(
+            projection_dim=ACTOR_D_MODEL,
+            projection_hidden_dims=(ACTOR_D_MODEL,),
+        ),
+        entrypoint_path=Path(__file__).resolve(),
+        mat_encoder_transformer_ff_config=swiglu_config,
+        rmat_actor_transformer_ff_config=swiglu_config,
+    )
+
+
+if __name__ == "__main__":
+    main()

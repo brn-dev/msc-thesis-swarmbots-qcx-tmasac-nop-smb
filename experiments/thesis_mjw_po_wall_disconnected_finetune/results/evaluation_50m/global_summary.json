@@ -1,0 +1,1355 @@
+{
+  "cases": {
+    "hard_connectors": {
+      "by_unit_count": {
+        "4": {
+          "connection_usage_by_outcome": {
+            "successful_episodes": {
+              "episode_count": 2218,
+              "episodes_with_never_connected_unit_count": 135,
+              "episodes_with_never_connected_unit_rate_percent": 6.086564472497746,
+              "episodes_without_any_successful_connection_count": 0,
+              "episodes_without_any_successful_connection_rate_percent": 0.0
+            },
+            "unsuccessful_episodes": {
+              "episode_count": 342,
+              "episodes_with_never_connected_unit_count": 116,
+              "episodes_with_never_connected_unit_rate_percent": 33.91812865497076,
+              "episodes_without_any_successful_connection_count": 0,
+              "episodes_without_any_successful_connection_rate_percent": 0.0
+            }
+          },
+          "episode_count": 2560,
+          "episode_length": {
+            "max": 512.0,
+            "mean": 294.50703125,
+            "min": 98.0,
+            "observation_count": 2560,
+            "std": 119.78082502767924
+          },
+          "episode_return": {
+            "max": 19.78675135690719,
+            "mean": 16.192632031139,
+            "min": -1.0996943425852805,
+            "observation_count": 2560,
+            "std": 4.726420251309201
+          },
+          "evaluation_job_count": 5,
+          "evaluation_job_success_rate_percent": {
+            "max": 95.5078125,
+            "mean": 86.640625,
+            "min": 72.0703125,
+            "std": 10.387687554714716
+          },
+          "guidance_reward": {
+            "max": -0.010500000091269612,
+            "mean": -0.20941845885158727,
+            "min": -0.9435000082012266,
+            "observation_count": 2560,
+            "std": 0.1484716426476543
+          },
+          "progress_reward": {
+            "max": 19.896832520142198,
+            "mean": 16.402050513515,
+            "min": -0.7291943163145334,
+            "observation_count": 2560,
+            "std": 4.660482141368039
+          },
+          "run_count": 5,
+          "success_count": 2218,
+          "success_rate_percent": 86.640625,
+          "successful_connections_per_unit": {
+            "max": 47.0,
+            "mean": 1.427734375,
+            "min": 0.0,
+            "observation_count": 10240,
+            "std": 1.335385428427576
+          },
+          "successful_connections_per_unit_successful_episodes": {
+            "max": 47.0,
+            "mean": 1.3751127141568982,
+            "min": 0.0,
+            "observation_count": 8872,
+            "std": 1.2563465975388066
+          },
+          "successful_connections_per_unit_unsuccessful_episodes": {
+            "max": 19.0,
+            "mean": 1.7690058479532165,
+            "min": 0.0,
+            "observation_count": 1368,
+            "std": 1.7254980315747106
+          },
+          "unsuccessful_count": 342
+        },
+        "5": {
+          "connection_usage_by_outcome": {
+            "successful_episodes": {
+              "episode_count": 1969,
+              "episodes_with_never_connected_unit_count": 203,
+              "episodes_with_never_connected_unit_rate_percent": 10.309801929913661,
+              "episodes_without_any_successful_connection_count": 0,
+              "episodes_without_any_successful_connection_rate_percent": 0.0
+            },
+            "unsuccessful_episodes": {
+              "episode_count": 591,
+              "episodes_with_never_connected_unit_count": 223,
+              "episodes_with_never_connected_unit_rate_percent": 37.732656514382406,
+              "episodes_without_any_successful_connection_count": 0,
+              "episodes_without_any_successful_connection_rate_percent": 0.0
+            }
+          },
+          "episode_count": 2560,
+          "episode_length": {
+            "max": 512.0,
+            "mean": 334.785546875,
+            "min": 103.0,
+            "observation_count": 2560,
+            "std": 124.20398302986162
+          },
+          "episode_return": {
+            "max": 19.812025299994275,
+            "mean": 15.057909092658008,
+            "min": -0.9190841651870869,
+            "observation_count": 2560,
+            "std": 5.457321340386321
+          },
+          "evaluation_job_count": 5,
+          "evaluation_job_success_rate_percent": {
+            "max": 89.2578125,
+            "mean": 76.9140625,
+            "min": 59.9609375,
+            "std": 12.82916218401459
+          },
+          "guidance_reward": {
+            "max": -0.017400000826455653,
+            "mean": -0.25634883703396555,
+            "min": -0.9744000411592424,
+            "observation_count": 2560,
+            "std": 0.13113979963519065
+          },
+          "progress_reward": {
+            "max": 19.999696366969147,
+            "mean": 15.314257869237755,
+            "min": -0.45040482539297955,
+            "observation_count": 2560,
+            "std": 5.413449982080403
+          },
+          "run_count": 5,
+          "success_count": 1969,
+          "success_rate_percent": 76.9140625,
+          "successful_connections_per_unit": {
+            "max": 69.0,
+            "mean": 1.6579687810502945,
+            "min": 0.0,
+            "observation_count": 12800,
+            "std": 1.7661882422888409
+          },
+          "successful_connections_per_unit_successful_episodes": {
+            "max": 50.0,
+            "mean": 1.6247841865354047,
+            "min": 0.0,
+            "observation_count": 9845,
+            "std": 1.581121247873808
+          },
+          "successful_connections_per_unit_unsuccessful_episodes": {
+            "max": 69.0,
+            "mean": 1.7685279461938113,
+            "min": 0.0,
+            "observation_count": 2955,
+            "std": 2.273192077808091
+          },
+          "unsuccessful_count": 591
+        }
+      },
+      "config": {
+        "deterministic": true,
+        "disable_connector_actions": false,
+        "disable_policy_connector_actions": false,
+        "episode_length": 512,
+        "episodes": 512,
+        "max_parallel_envs": 512,
+        "pool_seed_base": 3000000,
+        "pool_size": 50,
+        "rollout_seed": 2000000,
+        "scenario_kwargs_overrides": {
+          "wall_height": 0.4
+        },
+        "unconnected_prob": 1.0,
+        "unit_counts": [
+          4,
+          5
+        ]
+      },
+      "display_name": "Hard wall, connectors enabled",
+      "overall": {
+        "connection_usage_by_outcome": {
+          "successful_episodes": {
+            "episode_count": 4187,
+            "episodes_with_never_connected_unit_count": 338,
+            "episodes_with_never_connected_unit_rate_percent": 8.072605684260807,
+            "episodes_without_any_successful_connection_count": 0,
+            "episodes_without_any_successful_connection_rate_percent": 0.0
+          },
+          "unsuccessful_episodes": {
+            "episode_count": 933,
+            "episodes_with_never_connected_unit_count": 339,
+            "episodes_with_never_connected_unit_rate_percent": 36.334405144694536,
+            "episodes_without_any_successful_connection_count": 0,
+            "episodes_without_any_successful_connection_rate_percent": 0.0
+          }
+        },
+        "episode_count": 5120,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 314.6462890625,
+          "min": 98.0,
+          "observation_count": 5120,
+          "std": 123.66336332008437
+        },
+        "episode_return": {
+          "max": 19.812025299994275,
+          "mean": 15.625270561898503,
+          "min": -1.0996943425852805,
+          "observation_count": 5120,
+          "std": 5.136399647505011
+        },
+        "evaluation_job_count": 10,
+        "evaluation_job_success_rate_percent": {
+          "max": 95.5078125,
+          "mean": 81.77734375,
+          "min": 59.9609375,
+          "std": 12.645047728485016
+        },
+        "guidance_reward": {
+          "max": -0.010500000091269612,
+          "mean": -0.2328836479427764,
+          "min": -0.9744000411592424,
+          "observation_count": 5120,
+          "std": 0.14202588833910046
+        },
+        "progress_reward": {
+          "max": 19.999696366969147,
+          "mean": 15.85815419137638,
+          "min": -0.7291943163145334,
+          "observation_count": 5120,
+          "std": 5.080215591732716
+        },
+        "run_count": 5,
+        "success_count": 4187,
+        "success_rate_percent": 81.77734375,
+        "successful_connections_per_unit": {
+          "max": 69.0,
+          "mean": 1.5556423783612747,
+          "min": 0.0,
+          "observation_count": 23040,
+          "std": 1.593316485216201
+        },
+        "successful_connections_per_unit_successful_episodes": {
+          "max": 50.0,
+          "mean": 1.5064380144489533,
+          "min": 0.0,
+          "observation_count": 18717,
+          "std": 1.4417594876727617
+        },
+        "successful_connections_per_unit_unsuccessful_episodes": {
+          "max": 69.0,
+          "mean": 1.7686791767297507,
+          "min": 0.0,
+          "observation_count": 4323,
+          "std": 2.1152694719156293
+        },
+        "unsuccessful_count": 933
+      },
+      "source_completed_at": "2026-08-24T20:45:03.803722+00:00",
+      "source_created_at": "2026-08-24T20:41:04.718334+00:00",
+      "source_file": "/home/brn/git/swarm-bots/experiments/thesis_mjw_po_wall_disconnected_finetune/results/evaluation_50m/hard_connectors.json"
+    },
+    "hard_no_connectors": {
+      "by_unit_count": {
+        "4": {
+          "connection_usage_by_outcome": {
+            "successful_episodes": {
+              "episode_count": 0,
+              "episodes_with_never_connected_unit_count": 0,
+              "episodes_with_never_connected_unit_rate_percent": null,
+              "episodes_without_any_successful_connection_count": 0,
+              "episodes_without_any_successful_connection_rate_percent": null
+            },
+            "unsuccessful_episodes": {
+              "episode_count": 2048,
+              "episodes_with_never_connected_unit_count": 2048,
+              "episodes_with_never_connected_unit_rate_percent": 100.0,
+              "episodes_without_any_successful_connection_count": 2048,
+              "episodes_without_any_successful_connection_rate_percent": 100.0
+            }
+          },
+          "episode_count": 2048,
+          "episode_length": {
+            "max": 512.0,
+            "mean": 512.0,
+            "min": 512.0,
+            "observation_count": 2048,
+            "std": 0.0
+          },
+          "episode_return": {
+            "max": 7.571037943474948,
+            "mean": 2.4019705768168365,
+            "min": -1.318974151276052,
+            "observation_count": 2048,
+            "std": 1.3742416391822097
+          },
+          "evaluation_job_count": 4,
+          "evaluation_job_success_rate_percent": {
+            "max": 0.0,
+            "mean": 0.0,
+            "min": 0.0,
+            "std": 0.0
+          },
+          "guidance_reward": {
+            "max": -1.5360000133514404,
+            "mean": -1.5360000133514404,
+            "min": -1.5360000133514404,
+            "observation_count": 2048,
+            "std": 0.0
+          },
+          "progress_reward": {
+            "max": 9.107038425281644,
+            "mean": 3.9379706764564837,
+            "min": 0.21702609304338694,
+            "observation_count": 2048,
+            "std": 1.374241770343689
+          },
+          "run_count": 4,
+          "success_count": 0,
+          "success_rate_percent": 0.0,
+          "successful_connections_per_unit": {
+            "max": 0.0,
+            "mean": 0.0,
+            "min": 0.0,
+            "observation_count": 8192,
+            "std": 0.0
+          },
+          "successful_connections_per_unit_successful_episodes": null,
+          "successful_connections_per_unit_unsuccessful_episodes": {
+            "max": 0.0,
+            "mean": 0.0,
+            "min": 0.0,
+            "observation_count": 8192,
+            "std": 0.0
+          },
+          "unsuccessful_count": 2048
+        },
+        "5": {
+          "connection_usage_by_outcome": {
+            "successful_episodes": {
+              "episode_count": 0,
+              "episodes_with_never_connected_unit_count": 0,
+              "episodes_with_never_connected_unit_rate_percent": null,
+              "episodes_without_any_successful_connection_count": 0,
+              "episodes_without_any_successful_connection_rate_percent": null
+            },
+            "unsuccessful_episodes": {
+              "episode_count": 2048,
+              "episodes_with_never_connected_unit_count": 2048,
+              "episodes_with_never_connected_unit_rate_percent": 100.0,
+              "episodes_without_any_successful_connection_count": 2048,
+              "episodes_without_any_successful_connection_rate_percent": 100.0
+            }
+          },
+          "episode_count": 2048,
+          "episode_length": {
+            "max": 512.0,
+            "mean": 512.0,
+            "min": 512.0,
+            "observation_count": 2048,
+            "std": 0.0
+          },
+          "episode_return": {
+            "max": 7.629091261420399,
+            "mean": 2.244000139890545,
+            "min": -0.6756234564818442,
+            "observation_count": 2048,
+            "std": 1.1684223461040075
+          },
+          "evaluation_job_count": 4,
+          "evaluation_job_success_rate_percent": {
+            "max": 0.0,
+            "mean": 0.0,
+            "min": 0.0,
+            "std": 0.0
+          },
+          "guidance_reward": {
+            "max": -1.5360000133514404,
+            "mean": -1.5360000133514404,
+            "min": -1.5360000133514404,
+            "observation_count": 2048,
+            "std": 0.0
+          },
+          "progress_reward": {
+            "max": 9.165091636765283,
+            "mean": 3.780000146825477,
+            "min": 0.8603764177532867,
+            "observation_count": 2048,
+            "std": 1.1684224358374387
+          },
+          "run_count": 4,
+          "success_count": 0,
+          "success_rate_percent": 0.0,
+          "successful_connections_per_unit": {
+            "max": 0.0,
+            "mean": 0.0,
+            "min": 0.0,
+            "observation_count": 10240,
+            "std": 0.0
+          },
+          "successful_connections_per_unit_successful_episodes": null,
+          "successful_connections_per_unit_unsuccessful_episodes": {
+            "max": 0.0,
+            "mean": 0.0,
+            "min": 0.0,
+            "observation_count": 10240,
+            "std": 0.0
+          },
+          "unsuccessful_count": 2048
+        }
+      },
+      "config": {
+        "deterministic": true,
+        "disable_connector_actions": false,
+        "disable_policy_connector_actions": true,
+        "episode_length": 512,
+        "episodes": 512,
+        "max_parallel_envs": 512,
+        "pool_seed_base": 3000000,
+        "pool_size": 50,
+        "rollout_seed": 2000000,
+        "scenario_kwargs_overrides": {
+          "wall_height": 0.4
+        },
+        "unconnected_prob": 1.0,
+        "unit_counts": [
+          4,
+          5
+        ]
+      },
+      "display_name": "Hard wall, connectors disabled",
+      "overall": {
+        "connection_usage_by_outcome": {
+          "successful_episodes": {
+            "episode_count": 0,
+            "episodes_with_never_connected_unit_count": 0,
+            "episodes_with_never_connected_unit_rate_percent": null,
+            "episodes_without_any_successful_connection_count": 0,
+            "episodes_without_any_successful_connection_rate_percent": null
+          },
+          "unsuccessful_episodes": {
+            "episode_count": 4096,
+            "episodes_with_never_connected_unit_count": 4096,
+            "episodes_with_never_connected_unit_rate_percent": 100.0,
+            "episodes_without_any_successful_connection_count": 4096,
+            "episodes_without_any_successful_connection_rate_percent": 100.0
+          }
+        },
+        "episode_count": 4096,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 512.0,
+          "min": 512.0,
+          "observation_count": 4096,
+          "std": 0.0
+        },
+        "episode_return": {
+          "max": 7.629091261420399,
+          "mean": 2.322985358353691,
+          "min": -1.318974151276052,
+          "observation_count": 4096,
+          "std": 1.277933525502939
+        },
+        "evaluation_job_count": 8,
+        "evaluation_job_success_rate_percent": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0,
+          "std": 0.0
+        },
+        "guidance_reward": {
+          "max": -1.5360000133514404,
+          "mean": -1.5360000133514404,
+          "min": -1.5360000133514404,
+          "observation_count": 4096,
+          "std": 0.0
+        },
+        "progress_reward": {
+          "max": 9.165091636765283,
+          "mean": 3.8589854116409805,
+          "min": 0.21702609304338694,
+          "observation_count": 4096,
+          "std": 1.277933639912808
+        },
+        "run_count": 4,
+        "success_count": 0,
+        "success_rate_percent": 0.0,
+        "successful_connections_per_unit": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0,
+          "observation_count": 18432,
+          "std": 0.0
+        },
+        "successful_connections_per_unit_successful_episodes": null,
+        "successful_connections_per_unit_unsuccessful_episodes": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0,
+          "observation_count": 18432,
+          "std": 0.0
+        },
+        "unsuccessful_count": 4096
+      },
+      "source_completed_at": "2026-08-24T20:46:29.117830+00:00",
+      "source_created_at": "2026-08-24T20:45:03.807225+00:00",
+      "source_file": "/home/brn/git/swarm-bots/experiments/thesis_mjw_po_wall_disconnected_finetune/results/evaluation_50m/hard_no_connectors.json"
+    },
+    "medium_connectors": {
+      "by_unit_count": {
+        "4": {
+          "connection_usage_by_outcome": {
+            "successful_episodes": {
+              "episode_count": 2516,
+              "episodes_with_never_connected_unit_count": 160,
+              "episodes_with_never_connected_unit_rate_percent": 6.359300476947536,
+              "episodes_without_any_successful_connection_count": 0,
+              "episodes_without_any_successful_connection_rate_percent": 0.0
+            },
+            "unsuccessful_episodes": {
+              "episode_count": 44,
+              "episodes_with_never_connected_unit_count": 41,
+              "episodes_with_never_connected_unit_rate_percent": 93.18181818181819,
+              "episodes_without_any_successful_connection_count": 0,
+              "episodes_without_any_successful_connection_rate_percent": 0.0
+            }
+          },
+          "episode_count": 2560,
+          "episode_length": {
+            "max": 512.0,
+            "mean": 195.31875,
+            "min": 81.0,
+            "observation_count": 2560,
+            "std": 71.58300988843303
+          },
+          "episode_return": {
+            "max": 19.796640827786177,
+            "mean": 17.77087917228938,
+            "min": 1.8939590186346322,
+            "observation_count": 2560,
+            "std": 1.8363492117388946
+          },
+          "evaluation_job_count": 5,
+          "evaluation_job_success_rate_percent": {
+            "max": 99.4140625,
+            "mean": 98.28125,
+            "min": 96.875,
+            "std": 1.0867521674409029
+          },
+          "guidance_reward": {
+            "max": -0.003000000026077032,
+            "mean": -0.14631357549055793,
+            "min": -0.883500007679686,
+            "observation_count": 2560,
+            "std": 0.1035465370221798
+          },
+          "progress_reward": {
+            "max": 19.87852554023266,
+            "mean": 17.91719276083998,
+            "min": 2.084459026460536,
+            "observation_count": 2560,
+            "std": 1.7704258393906058
+          },
+          "run_count": 5,
+          "success_count": 2516,
+          "success_rate_percent": 98.28125,
+          "successful_connections_per_unit": {
+            "max": 37.0,
+            "mean": 1.297265625,
+            "min": 0.0,
+            "observation_count": 10240,
+            "std": 1.1462883144953049
+          },
+          "successful_connections_per_unit_successful_episodes": {
+            "max": 37.0,
+            "mean": 1.2961049284578696,
+            "min": 0.0,
+            "observation_count": 10064,
+            "std": 1.1405417074588737
+          },
+          "successful_connections_per_unit_unsuccessful_episodes": {
+            "max": 7.0,
+            "mean": 1.3636363636363635,
+            "min": 0.0,
+            "observation_count": 176,
+            "std": 1.4356010671616832
+          },
+          "unsuccessful_count": 44
+        },
+        "5": {
+          "connection_usage_by_outcome": {
+            "successful_episodes": {
+              "episode_count": 2444,
+              "episodes_with_never_connected_unit_count": 220,
+              "episodes_with_never_connected_unit_rate_percent": 9.00163666121113,
+              "episodes_without_any_successful_connection_count": 0,
+              "episodes_without_any_successful_connection_rate_percent": 0.0
+            },
+            "unsuccessful_episodes": {
+              "episode_count": 116,
+              "episodes_with_never_connected_unit_count": 77,
+              "episodes_with_never_connected_unit_rate_percent": 66.37931034482759,
+              "episodes_without_any_successful_connection_count": 0,
+              "episodes_without_any_successful_connection_rate_percent": 0.0
+            }
+          },
+          "episode_count": 2560,
+          "episode_length": {
+            "max": 512.0,
+            "mean": 232.930859375,
+            "min": 80.0,
+            "observation_count": 2560,
+            "std": 89.27536133474325
+          },
+          "episode_return": {
+            "max": 19.884331736830063,
+            "mean": 17.46308269740686,
+            "min": 1.7295370863866992,
+            "observation_count": 2560,
+            "std": 2.470802044366569
+          },
+          "evaluation_job_count": 5,
+          "evaluation_job_success_rate_percent": {
+            "max": 97.0703125,
+            "mean": 95.46875,
+            "min": 94.140625,
+            "std": 0.9679306010440522
+          },
+          "guidance_reward": {
+            "max": -0.02460000105202198,
+            "mean": -0.18429328726215316,
+            "min": -0.984000034397468,
+            "observation_count": 2560,
+            "std": 0.09250303908390116
+          },
+          "progress_reward": {
+            "max": 20.023835891508497,
+            "mean": 17.647375901261277,
+            "min": 2.244337081647245,
+            "observation_count": 2560,
+            "std": 2.4282133944284294
+          },
+          "run_count": 5,
+          "success_count": 2444,
+          "success_rate_percent": 95.46875,
+          "successful_connections_per_unit": {
+            "max": 43.0,
+            "mean": 1.5585937834577634,
+            "min": 0.0,
+            "observation_count": 12800,
+            "std": 1.304620826563233
+          },
+          "successful_connections_per_unit_successful_episodes": {
+            "max": 18.0,
+            "mean": 1.549099869916365,
+            "min": 0.0,
+            "observation_count": 12220,
+            "std": 1.1543534625337355
+          },
+          "successful_connections_per_unit_unsuccessful_episodes": {
+            "max": 43.0,
+            "mean": 1.7586207204851612,
+            "min": 0.0,
+            "observation_count": 580,
+            "std": 3.0733018026829244
+          },
+          "unsuccessful_count": 116
+        }
+      },
+      "config": {
+        "deterministic": true,
+        "disable_connector_actions": false,
+        "disable_policy_connector_actions": false,
+        "episode_length": 512,
+        "episodes": 512,
+        "max_parallel_envs": 512,
+        "pool_seed_base": 3000000,
+        "pool_size": 50,
+        "rollout_seed": 2000000,
+        "scenario_kwargs_overrides": null,
+        "unconnected_prob": 1.0,
+        "unit_counts": [
+          4,
+          5
+        ]
+      },
+      "display_name": "Medium wall, connectors enabled",
+      "overall": {
+        "connection_usage_by_outcome": {
+          "successful_episodes": {
+            "episode_count": 4960,
+            "episodes_with_never_connected_unit_count": 380,
+            "episodes_with_never_connected_unit_rate_percent": 7.661290322580645,
+            "episodes_without_any_successful_connection_count": 0,
+            "episodes_without_any_successful_connection_rate_percent": 0.0
+          },
+          "unsuccessful_episodes": {
+            "episode_count": 160,
+            "episodes_with_never_connected_unit_count": 118,
+            "episodes_with_never_connected_unit_rate_percent": 73.75,
+            "episodes_without_any_successful_connection_count": 0,
+            "episodes_without_any_successful_connection_rate_percent": 0.0
+          }
+        },
+        "episode_count": 5120,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 214.1248046875,
+          "min": 80.0,
+          "observation_count": 5120,
+          "std": 83.07091197270849
+        },
+        "episode_return": {
+          "max": 19.884331736830063,
+          "mean": 17.616980934848122,
+          "min": 1.7295370863866992,
+          "observation_count": 5120,
+          "std": 2.1822477523043684
+        },
+        "evaluation_job_count": 10,
+        "evaluation_job_success_rate_percent": {
+          "max": 99.4140625,
+          "mean": 96.875,
+          "min": 94.140625,
+          "std": 1.7425553143121455
+        },
+        "guidance_reward": {
+          "max": -0.003000000026077032,
+          "mean": -0.16530343137635556,
+          "min": -0.984000034397468,
+          "observation_count": 5120,
+          "std": 0.09999981705525793
+        },
+        "progress_reward": {
+          "max": 20.023835891508497,
+          "mean": 17.78228433105063,
+          "min": 2.084459026460536,
+          "observation_count": 5120,
+          "std": 2.1292050759050904
+        },
+        "run_count": 5,
+        "success_count": 4960,
+        "success_rate_percent": 96.875,
+        "successful_connections_per_unit": {
+          "max": 43.0,
+          "mean": 1.4424479352543131,
+          "min": 0.0,
+          "observation_count": 23040,
+          "std": 1.2435543149655177
+        },
+        "successful_connections_per_unit_successful_episodes": {
+          "max": 37.0,
+          "mean": 1.434841160042092,
+          "min": 0.0,
+          "observation_count": 22284,
+          "std": 1.155018965337271
+        },
+        "successful_connections_per_unit_unsuccessful_episodes": {
+          "max": 43.0,
+          "mean": 1.6666666903193035,
+          "min": 0.0,
+          "observation_count": 756,
+          "std": 2.784594764875584
+        },
+        "unsuccessful_count": 160
+      },
+      "source_completed_at": "2026-08-24T20:39:13.347461+00:00",
+      "source_created_at": "2026-08-24T20:35:20.992058+00:00",
+      "source_file": "/home/brn/git/swarm-bots/experiments/thesis_mjw_po_wall_disconnected_finetune/results/evaluation_50m/medium_connectors.json"
+    },
+    "medium_no_connectors": {
+      "by_unit_count": {
+        "4": {
+          "connection_usage_by_outcome": {
+            "successful_episodes": {
+              "episode_count": 1421,
+              "episodes_with_never_connected_unit_count": 1421,
+              "episodes_with_never_connected_unit_rate_percent": 100.0,
+              "episodes_without_any_successful_connection_count": 1421,
+              "episodes_without_any_successful_connection_rate_percent": 100.0
+            },
+            "unsuccessful_episodes": {
+              "episode_count": 1139,
+              "episodes_with_never_connected_unit_count": 1139,
+              "episodes_with_never_connected_unit_rate_percent": 100.0,
+              "episodes_without_any_successful_connection_count": 1139,
+              "episodes_without_any_successful_connection_rate_percent": 100.0
+            }
+          },
+          "episode_count": 2560,
+          "episode_length": {
+            "max": 512.0,
+            "mean": 351.6296875,
+            "min": 62.0,
+            "observation_count": 2560,
+            "std": 162.00689721012608
+          },
+          "episode_return": {
+            "max": 19.4468481852673,
+            "mean": 12.46630586539709,
+            "min": -0.8973430977202952,
+            "observation_count": 2560,
+            "std": 5.709731388591768
+          },
+          "evaluation_job_count": 5,
+          "evaluation_job_success_rate_percent": {
+            "max": 98.046875,
+            "mean": 55.5078125,
+            "min": 25.1953125,
+            "std": 29.12328782185637
+          },
+          "guidance_reward": {
+            "max": -0.186000001616776,
+            "mean": -1.0548890716694586,
+            "min": -1.5360000133514404,
+            "observation_count": 2560,
+            "std": 0.4860206958550372
+          },
+          "progress_reward": {
+            "max": 19.92488286178559,
+            "mean": 13.521194987803204,
+            "min": 0.638657015748322,
+            "observation_count": 2560,
+            "std": 5.288653987636748
+          },
+          "run_count": 5,
+          "success_count": 1421,
+          "success_rate_percent": 55.5078125,
+          "successful_connections_per_unit": {
+            "max": 0.0,
+            "mean": 0.0,
+            "min": 0.0,
+            "observation_count": 10240,
+            "std": 0.0
+          },
+          "successful_connections_per_unit_successful_episodes": {
+            "max": 0.0,
+            "mean": 0.0,
+            "min": 0.0,
+            "observation_count": 5684,
+            "std": 0.0
+          },
+          "successful_connections_per_unit_unsuccessful_episodes": {
+            "max": 0.0,
+            "mean": 0.0,
+            "min": 0.0,
+            "observation_count": 4556,
+            "std": 0.0
+          },
+          "unsuccessful_count": 1139
+        },
+        "5": {
+          "connection_usage_by_outcome": {
+            "successful_episodes": {
+              "episode_count": 1192,
+              "episodes_with_never_connected_unit_count": 1192,
+              "episodes_with_never_connected_unit_rate_percent": 100.0,
+              "episodes_without_any_successful_connection_count": 1192,
+              "episodes_without_any_successful_connection_rate_percent": 100.0
+            },
+            "unsuccessful_episodes": {
+              "episode_count": 1368,
+              "episodes_with_never_connected_unit_count": 1368,
+              "episodes_with_never_connected_unit_rate_percent": 100.0,
+              "episodes_without_any_successful_connection_count": 1368,
+              "episodes_without_any_successful_connection_rate_percent": 100.0
+            }
+          },
+          "episode_count": 2560,
+          "episode_length": {
+            "max": 512.0,
+            "mean": 385.863671875,
+            "min": 78.0,
+            "observation_count": 2560,
+            "std": 151.43205394340174
+          },
+          "episode_return": {
+            "max": 19.488539307494648,
+            "mean": 11.664346575955552,
+            "min": -0.8608937403187156,
+            "observation_count": 2560,
+            "std": 5.600106358500019
+          },
+          "evaluation_job_count": 5,
+          "evaluation_job_success_rate_percent": {
+            "max": 96.6796875,
+            "mean": 46.5625,
+            "min": 14.2578125,
+            "std": 32.183233181998276
+          },
+          "guidance_reward": {
+            "max": -0.2340000020340085,
+            "mean": -1.1575910256871793,
+            "min": -1.5360000133514404,
+            "observation_count": 2560,
+            "std": 0.4542961657791039
+          },
+          "progress_reward": {
+            "max": 20.01091687817825,
+            "mean": 12.821937583219759,
+            "min": 0.6751062533003278,
+            "observation_count": 2560,
+            "std": 5.2090136304026835
+          },
+          "run_count": 5,
+          "success_count": 1192,
+          "success_rate_percent": 46.5625,
+          "successful_connections_per_unit": {
+            "max": 0.0,
+            "mean": 0.0,
+            "min": 0.0,
+            "observation_count": 12800,
+            "std": 0.0
+          },
+          "successful_connections_per_unit_successful_episodes": {
+            "max": 0.0,
+            "mean": 0.0,
+            "min": 0.0,
+            "observation_count": 5960,
+            "std": 0.0
+          },
+          "successful_connections_per_unit_unsuccessful_episodes": {
+            "max": 0.0,
+            "mean": 0.0,
+            "min": 0.0,
+            "observation_count": 6840,
+            "std": 0.0
+          },
+          "unsuccessful_count": 1368
+        }
+      },
+      "config": {
+        "deterministic": true,
+        "disable_connector_actions": false,
+        "disable_policy_connector_actions": true,
+        "episode_length": 512,
+        "episodes": 512,
+        "max_parallel_envs": 512,
+        "pool_seed_base": 3000000,
+        "pool_size": 50,
+        "rollout_seed": 2000000,
+        "scenario_kwargs_overrides": null,
+        "unconnected_prob": 1.0,
+        "unit_counts": [
+          4,
+          5
+        ]
+      },
+      "display_name": "Medium wall, connectors disabled",
+      "overall": {
+        "connection_usage_by_outcome": {
+          "successful_episodes": {
+            "episode_count": 2613,
+            "episodes_with_never_connected_unit_count": 2613,
+            "episodes_with_never_connected_unit_rate_percent": 100.0,
+            "episodes_without_any_successful_connection_count": 2613,
+            "episodes_without_any_successful_connection_rate_percent": 100.0
+          },
+          "unsuccessful_episodes": {
+            "episode_count": 2507,
+            "episodes_with_never_connected_unit_count": 2507,
+            "episodes_with_never_connected_unit_rate_percent": 100.0,
+            "episodes_without_any_successful_connection_count": 2507,
+            "episodes_without_any_successful_connection_rate_percent": 100.0
+          }
+        },
+        "episode_count": 5120,
+        "episode_length": {
+          "max": 512.0,
+          "mean": 368.7466796875,
+          "min": 62.0,
+          "observation_count": 5120,
+          "std": 157.74010990908997
+        },
+        "episode_return": {
+          "max": 19.488539307494648,
+          "mean": 12.06532622067632,
+          "min": -0.8973430977202952,
+          "observation_count": 5120,
+          "std": 5.669382378502231
+        },
+        "evaluation_job_count": 10,
+        "evaluation_job_success_rate_percent": {
+          "max": 98.046875,
+          "mean": 51.03515625,
+          "min": 14.2578125,
+          "std": 31.015606551080786
+        },
+        "guidance_reward": {
+          "max": -0.186000001616776,
+          "mean": -1.106240048678319,
+          "min": -1.5360000133514404,
+          "observation_count": 5120,
+          "std": 0.47322033384066353
+        },
+        "progress_reward": {
+          "max": 20.01091687817825,
+          "mean": 13.171566285511483,
+          "min": 0.638657015748322,
+          "observation_count": 5120,
+          "std": 5.260616145547939
+        },
+        "run_count": 5,
+        "success_count": 2613,
+        "success_rate_percent": 51.03515625,
+        "successful_connections_per_unit": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0,
+          "observation_count": 23040,
+          "std": 0.0
+        },
+        "successful_connections_per_unit_successful_episodes": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0,
+          "observation_count": 11644,
+          "std": 0.0
+        },
+        "successful_connections_per_unit_unsuccessful_episodes": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0,
+          "observation_count": 11396,
+          "std": 0.0
+        },
+        "unsuccessful_count": 2507
+      },
+      "source_completed_at": "2026-08-24T20:41:04.714605+00:00",
+      "source_created_at": "2026-08-24T20:39:13.351136+00:00",
+      "source_file": "/home/brn/git/swarm-bots/experiments/thesis_mjw_po_wall_disconnected_finetune/results/evaluation_50m/medium_no_connectors.json"
+    }
+  },
+  "comparisons": {
+    "connector_enabled_vs_disabled": {
+      "hard": {
+        "by_unit_count": {
+          "4": {
+            "connector_disabled": {
+              "episode_return_mean": 2.4019705768168365,
+              "success_rate_percent": 0.0,
+              "successful_connections_per_unit_mean": null,
+              "successful_episodes_with_never_connected_unit_rate_percent": null,
+              "successful_episodes_without_any_successful_connection_rate_percent": null
+            },
+            "connector_enabled": {
+              "episode_return_mean": 16.192632031139,
+              "success_rate_percent": 86.640625,
+              "successful_connections_per_unit_mean": 1.3751127141568982,
+              "successful_episodes_with_never_connected_unit_rate_percent": 6.086564472497746,
+              "successful_episodes_without_any_successful_connection_rate_percent": 0.0
+            },
+            "connector_enabled_minus_connector_disabled": {
+              "episode_return_mean": 13.790661454322162,
+              "success_rate_percent": 86.640625,
+              "successful_connections_per_unit_mean": null,
+              "successful_episodes_with_never_connected_unit_rate_percent": null,
+              "successful_episodes_without_any_successful_connection_rate_percent": null
+            }
+          },
+          "5": {
+            "connector_disabled": {
+              "episode_return_mean": 2.244000139890545,
+              "success_rate_percent": 0.0,
+              "successful_connections_per_unit_mean": null,
+              "successful_episodes_with_never_connected_unit_rate_percent": null,
+              "successful_episodes_without_any_successful_connection_rate_percent": null
+            },
+            "connector_enabled": {
+              "episode_return_mean": 15.057909092658008,
+              "success_rate_percent": 76.9140625,
+              "successful_connections_per_unit_mean": 1.6247841865354047,
+              "successful_episodes_with_never_connected_unit_rate_percent": 10.309801929913661,
+              "successful_episodes_without_any_successful_connection_rate_percent": 0.0
+            },
+            "connector_enabled_minus_connector_disabled": {
+              "episode_return_mean": 12.813908952767463,
+              "success_rate_percent": 76.9140625,
+              "successful_connections_per_unit_mean": null,
+              "successful_episodes_with_never_connected_unit_rate_percent": null,
+              "successful_episodes_without_any_successful_connection_rate_percent": null
+            }
+          }
+        },
+        "comparable_evaluation_design": true,
+        "overall": {
+          "connector_disabled": {
+            "episode_return_mean": 2.322985358353691,
+            "success_rate_percent": 0.0,
+            "successful_connections_per_unit_mean": null,
+            "successful_episodes_with_never_connected_unit_rate_percent": null,
+            "successful_episodes_without_any_successful_connection_rate_percent": null
+          },
+          "connector_enabled": {
+            "episode_return_mean": 15.625270561898503,
+            "success_rate_percent": 81.77734375,
+            "successful_connections_per_unit_mean": 1.5064380144489533,
+            "successful_episodes_with_never_connected_unit_rate_percent": 8.072605684260807,
+            "successful_episodes_without_any_successful_connection_rate_percent": 0.0
+          },
+          "connector_enabled_minus_connector_disabled": {
+            "episode_return_mean": 13.302285203544812,
+            "success_rate_percent": 81.77734375,
+            "successful_connections_per_unit_mean": null,
+            "successful_episodes_with_never_connected_unit_rate_percent": null,
+            "successful_episodes_without_any_successful_connection_rate_percent": null
+          }
+        }
+      },
+      "medium": {
+        "by_unit_count": {
+          "4": {
+            "connector_disabled": {
+              "episode_return_mean": 12.46630586539709,
+              "success_rate_percent": 55.5078125,
+              "successful_connections_per_unit_mean": 0.0,
+              "successful_episodes_with_never_connected_unit_rate_percent": 100.0,
+              "successful_episodes_without_any_successful_connection_rate_percent": 100.0
+            },
+            "connector_enabled": {
+              "episode_return_mean": 17.77087917228938,
+              "success_rate_percent": 98.28125,
+              "successful_connections_per_unit_mean": 1.2961049284578696,
+              "successful_episodes_with_never_connected_unit_rate_percent": 6.359300476947536,
+              "successful_episodes_without_any_successful_connection_rate_percent": 0.0
+            },
+            "connector_enabled_minus_connector_disabled": {
+              "episode_return_mean": 5.304573306892291,
+              "success_rate_percent": 42.7734375,
+              "successful_connections_per_unit_mean": 1.2961049284578696,
+              "successful_episodes_with_never_connected_unit_rate_percent": -93.64069952305246,
+              "successful_episodes_without_any_successful_connection_rate_percent": -100.0
+            }
+          },
+          "5": {
+            "connector_disabled": {
+              "episode_return_mean": 11.664346575955552,
+              "success_rate_percent": 46.5625,
+              "successful_connections_per_unit_mean": 0.0,
+              "successful_episodes_with_never_connected_unit_rate_percent": 100.0,
+              "successful_episodes_without_any_successful_connection_rate_percent": 100.0
+            },
+            "connector_enabled": {
+              "episode_return_mean": 17.46308269740686,
+              "success_rate_percent": 95.46875,
+              "successful_connections_per_unit_mean": 1.549099869916365,
+              "successful_episodes_with_never_connected_unit_rate_percent": 9.00163666121113,
+              "successful_episodes_without_any_successful_connection_rate_percent": 0.0
+            },
+            "connector_enabled_minus_connector_disabled": {
+              "episode_return_mean": 5.798736121451309,
+              "success_rate_percent": 48.90625,
+              "successful_connections_per_unit_mean": 1.549099869916365,
+              "successful_episodes_with_never_connected_unit_rate_percent": -90.99836333878886,
+              "successful_episodes_without_any_successful_connection_rate_percent": -100.0
+            }
+          }
+        },
+        "comparable_evaluation_design": true,
+        "overall": {
+          "connector_disabled": {
+            "episode_return_mean": 12.06532622067632,
+            "success_rate_percent": 51.03515625,
+            "successful_connections_per_unit_mean": 0.0,
+            "successful_episodes_with_never_connected_unit_rate_percent": 100.0,
+            "successful_episodes_without_any_successful_connection_rate_percent": 100.0
+          },
+          "connector_enabled": {
+            "episode_return_mean": 17.616980934848122,
+            "success_rate_percent": 96.875,
+            "successful_connections_per_unit_mean": 1.434841160042092,
+            "successful_episodes_with_never_connected_unit_rate_percent": 7.661290322580645,
+            "successful_episodes_without_any_successful_connection_rate_percent": 0.0
+          },
+          "connector_enabled_minus_connector_disabled": {
+            "episode_return_mean": 5.551654714171802,
+            "success_rate_percent": 45.83984375,
+            "successful_connections_per_unit_mean": 1.434841160042092,
+            "successful_episodes_with_never_connected_unit_rate_percent": -92.33870967741936,
+            "successful_episodes_without_any_successful_connection_rate_percent": -100.0
+          }
+        }
+      }
+    },
+    "hard_vs_medium_wall": {
+      "connectors": {
+        "by_unit_count": {
+          "4": {
+            "hard_wall": {
+              "episode_return_mean": 16.192632031139,
+              "success_rate_percent": 86.640625,
+              "successful_connections_per_unit_mean": 1.3751127141568982,
+              "successful_episodes_with_never_connected_unit_rate_percent": 6.086564472497746,
+              "successful_episodes_without_any_successful_connection_rate_percent": 0.0
+            },
+            "hard_wall_minus_medium_wall": {
+              "episode_return_mean": -1.5782471411503813,
+              "success_rate_percent": -11.640625,
+              "successful_connections_per_unit_mean": 0.07900778569902855,
+              "successful_episodes_with_never_connected_unit_rate_percent": -0.27273600444978996,
+              "successful_episodes_without_any_successful_connection_rate_percent": 0.0
+            },
+            "medium_wall": {
+              "episode_return_mean": 17.77087917228938,
+              "success_rate_percent": 98.28125,
+              "successful_connections_per_unit_mean": 1.2961049284578696,
+              "successful_episodes_with_never_connected_unit_rate_percent": 6.359300476947536,
+              "successful_episodes_without_any_successful_connection_rate_percent": 0.0
+            }
+          },
+          "5": {
+            "hard_wall": {
+              "episode_return_mean": 15.057909092658008,
+              "success_rate_percent": 76.9140625,
+              "successful_connections_per_unit_mean": 1.6247841865354047,
+              "successful_episodes_with_never_connected_unit_rate_percent": 10.309801929913661,
+              "successful_episodes_without_any_successful_connection_rate_percent": 0.0
+            },
+            "hard_wall_minus_medium_wall": {
+              "episode_return_mean": -2.4051736047488532,
+              "success_rate_percent": -18.5546875,
+              "successful_connections_per_unit_mean": 0.07568431661903974,
+              "successful_episodes_with_never_connected_unit_rate_percent": 1.3081652687025311,
+              "successful_episodes_without_any_successful_connection_rate_percent": 0.0
+            },
+            "medium_wall": {
+              "episode_return_mean": 17.46308269740686,
+              "success_rate_percent": 95.46875,
+              "successful_connections_per_unit_mean": 1.549099869916365,
+              "successful_episodes_with_never_connected_unit_rate_percent": 9.00163666121113,
+              "successful_episodes_without_any_successful_connection_rate_percent": 0.0
+            }
+          }
+        },
+        "comparable_evaluation_design": true,
+        "overall": {
+          "hard_wall": {
+            "episode_return_mean": 15.625270561898503,
+            "success_rate_percent": 81.77734375,
+            "successful_connections_per_unit_mean": 1.5064380144489533,
+            "successful_episodes_with_never_connected_unit_rate_percent": 8.072605684260807,
+            "successful_episodes_without_any_successful_connection_rate_percent": 0.0
+          },
+          "hard_wall_minus_medium_wall": {
+            "episode_return_mean": -1.991710372949619,
+            "success_rate_percent": -15.09765625,
+            "successful_connections_per_unit_mean": 0.07159685440686125,
+            "successful_episodes_with_never_connected_unit_rate_percent": 0.41131536168016236,
+            "successful_episodes_without_any_successful_connection_rate_percent": 0.0
+          },
+          "medium_wall": {
+            "episode_return_mean": 17.616980934848122,
+            "success_rate_percent": 96.875,
+            "successful_connections_per_unit_mean": 1.434841160042092,
+            "successful_episodes_with_never_connected_unit_rate_percent": 7.661290322580645,
+            "successful_episodes_without_any_successful_connection_rate_percent": 0.0
+          }
+        }
+      },
+      "no_connectors": {
+        "by_unit_count": {
+          "4": {
+            "hard_wall": {
+              "episode_return_mean": 2.4019705768168365,
+              "success_rate_percent": 0.0,
+              "successful_connections_per_unit_mean": null,
+              "successful_episodes_with_never_connected_unit_rate_percent": null,
+              "successful_episodes_without_any_successful_connection_rate_percent": null
+            },
+            "hard_wall_minus_medium_wall": {
+              "episode_return_mean": -10.064335288580253,
+              "success_rate_percent": -55.5078125,
+              "successful_connections_per_unit_mean": null,
+              "successful_episodes_with_never_connected_unit_rate_percent": null,
+              "successful_episodes_without_any_successful_connection_rate_percent": null
+            },
+            "medium_wall": {
+              "episode_return_mean": 12.46630586539709,
+              "success_rate_percent": 55.5078125,
+              "successful_connections_per_unit_mean": 0.0,
+              "successful_episodes_with_never_connected_unit_rate_percent": 100.0,
+              "successful_episodes_without_any_successful_connection_rate_percent": 100.0
+            }
+          },
+          "5": {
+            "hard_wall": {
+              "episode_return_mean": 2.244000139890545,
+              "success_rate_percent": 0.0,
+              "successful_connections_per_unit_mean": null,
+              "successful_episodes_with_never_connected_unit_rate_percent": null,
+              "successful_episodes_without_any_successful_connection_rate_percent": null
+            },
+            "hard_wall_minus_medium_wall": {
+              "episode_return_mean": -9.420346436065007,
+              "success_rate_percent": -46.5625,
+              "successful_connections_per_unit_mean": null,
+              "successful_episodes_with_never_connected_unit_rate_percent": null,
+              "successful_episodes_without_any_successful_connection_rate_percent": null
+            },
+            "medium_wall": {
+              "episode_return_mean": 11.664346575955552,
+              "success_rate_percent": 46.5625,
+              "successful_connections_per_unit_mean": 0.0,
+              "successful_episodes_with_never_connected_unit_rate_percent": 100.0,
+              "successful_episodes_without_any_successful_connection_rate_percent": 100.0
+            }
+          }
+        },
+        "comparable_evaluation_design": true,
+        "overall": {
+          "hard_wall": {
+            "episode_return_mean": 2.322985358353691,
+            "success_rate_percent": 0.0,
+            "successful_connections_per_unit_mean": null,
+            "successful_episodes_with_never_connected_unit_rate_percent": null,
+            "successful_episodes_without_any_successful_connection_rate_percent": null
+          },
+          "hard_wall_minus_medium_wall": {
+            "episode_return_mean": -9.74234086232263,
+            "success_rate_percent": -51.03515625,
+            "successful_connections_per_unit_mean": null,
+            "successful_episodes_with_never_connected_unit_rate_percent": null,
+            "successful_episodes_without_any_successful_connection_rate_percent": null
+          },
+          "medium_wall": {
+            "episode_return_mean": 12.06532622067632,
+            "success_rate_percent": 51.03515625,
+            "successful_connections_per_unit_mean": 0.0,
+            "successful_episodes_with_never_connected_unit_rate_percent": 100.0,
+            "successful_episodes_without_any_successful_connection_rate_percent": 100.0
+          }
+        }
+      }
+    }
+  },
+  "generated_at": "2026-08-24T20:46:29.121954+00:00",
+  "included_cases": [
+    "medium_connectors",
+    "medium_no_connectors",
+    "hard_connectors",
+    "hard_no_connectors"
+  ],
+  "metric_notes": {
+    "comparison_differences": "The first named condition minus the second.",
+    "evaluation_job_success_rate_percent": "Distribution across checkpoint-by-unit-count evaluation jobs; use its standard deviation as run-level variability only within one unit-count group.",
+    "never_connected_unit": "A unit with zero successful connector activations during the episode. All evaluated episodes start fully disconnected.",
+    "pooled_statistics": "Means and population standard deviations pool the source first and second moments using their exact episode or episode-unit observation counts."
+  },
+  "missing_cases": [],
+  "schema_version": 1
+}

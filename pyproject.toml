@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "swarm-bots"
+version = "0.1.0"
+description = "Swarm robot simulation environments and reinforcement learning training code."
+readme = "README.md"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "gymnasium",
+    "loguru",
+    "moviepy",
+    "mujoco>=3.1",
+    "numpy",
+    "pandas",
+    "pillow",
+    "torch==2.12.1+cu132 ; sys_platform == 'win32' or sys_platform == 'linux'",
+    "torch ; sys_platform != 'win32' and sys_platform != 'linux'",
+    "tqdm>=4.68.3",
+    "triton-windows>=3.7,<3.8 ; sys_platform == 'win32'",
+]
+
+[project.optional-dependencies]
+mamujoco = ["gymnasium-robotics>=1.4"]
+mjw = ["mujoco-warp", "warp-lang"]
+plot = ["matplotlib"]
+prompt = ["prompt-toolkit"]
+vmas = ["vmas[gymnasium]"]
+wandb = ["wandb"]
+warp = ["mujoco-warp", "warp-lang"]
+
+[dependency-groups]
+dev = [
+    "ipython",
+    "pytest",
+]
+
+[tool.uv]
+exclude-newer = "1 week"
+
+[tool.uv.sources]
+torch = [
+    { index = "pytorch-cu132", marker = "sys_platform == 'win32' or sys_platform == 'linux'" },
+]
+
+[[tool.uv.index]]
+name = "pytorch-cu132"
+url = "https://download.pytorch.org/whl/cu132"
+explicit = true
+
+[tool.setuptools.packages.find]
+include = ["swarmbots*"]
+exclude = ["runs*", "runs_synced*", "videos*", "recording*", "plot_logs*", "scripts*"]
