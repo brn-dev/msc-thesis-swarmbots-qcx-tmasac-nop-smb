@@ -1,0 +1,23 @@
+﻿cff-version: 1.2.0
+message: "If you use this research artifact, please cite the accompanying thesis."
+title: "SwarmBots Thesis Reproducibility Artifact"
+type: software
+authors:
+  - family-names: Baron
+    given-names: Dominik
+repository-code: "https://github.com/brn-dev/msc-thesis-swarmbots-qcx-tmasac-nop-smb"
+license: Apache-2.0
+version: 0.1.0
+date-released: "2026-09-26"
+preferred-citation:
+  type: thesis
+  title: "SwarmBots: A GPU-Accelerated Multi-Agent Continuous Control Benchmark with Transformer Baselines"
+  authors:
+    - family-names: Baron
+      given-names: Dominik
+  institution:
+    name: "Johannes Kepler University Linz"
+  thesis-type: "Master's thesis"
+  month: 9
+  year: 2026
+  url: "https://github.com/brn-dev/msc-thesis-swarmbots-qcx-tmasac-nop-smb"
